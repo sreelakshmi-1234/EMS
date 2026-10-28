@@ -1,0 +1,10 @@
+{
+    "p": {
+        "setpoint_value": 57,
+        "setpoint_unit": "kW"
+    },
+    "q": {
+        "setpoint_value": 32,
+        "setpoint_unit": "kVAr"
+    }
+}

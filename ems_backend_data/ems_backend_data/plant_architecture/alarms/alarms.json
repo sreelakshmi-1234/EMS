@@ -1,0 +1,662 @@
+{
+  "plant_1_block_1_inverter_inverter_1_Alarm1": {
+    "device_id": "plant_1_block_1_inverter_inverter_1",
+    "tag": "Alarm1",
+    "info": {
+      "name": "Alarm1",
+      "alias": "Alarm1",
+      "dataType": "int16",
+      "min": 0,
+      "max": 1000,
+      "scaling": 1,
+      "unit": "F",
+      "type": "alarm",
+      "alarmType": "enum",
+      "srno": 13,
+      "register": 13,
+      "fc": 3,
+      "word_swap": false,
+      "byte_swap": false,
+      "value": null
+    }
+  },
+  "plant_1_block_1_inverter_inverter_1_Alarm2": {
+    "device_id": "plant_1_block_1_inverter_inverter_1",
+    "tag": "Alarm2",
+    "info": {
+      "name": "Alarm2",
+      "alias": "Alarm2",
+      "dataType": "int16",
+      "min": 0,
+      "max": 1000,
+      "scaling": 1,
+      "unit": "kW",
+      "type": "alarm",
+      "alarmType": "bitwise",
+      "srno": 19,
+      "register": 19,
+      "fc": 3,
+      "word_swap": false,
+      "byte_swap": false,
+      "bitMap": {
+        "0": {
+          "alias": "RUN",
+          "severity": "info"
+        },
+        "1": {
+          "alias": "STOP",
+          "severity": "warning"
+        },
+        "2": {
+          "alias": "EMERGENCY",
+          "severity": "critical"
+        },
+        "3": {
+          "alias": "OVERHEAT",
+          "severity": "critical"
+        }
+      },
+      "value": null
+    }
+  },
+  "plant_1_block_1_inverter_inverter_2_Alarm1": {
+    "device_id": "plant_1_block_1_inverter_inverter_2",
+    "tag": "Alarm1",
+    "info": {
+      "name": "Alarm1",
+      "alias": "Alarm1",
+      "dataType": "int16",
+      "min": 0,
+      "max": 1000,
+      "scaling": 1,
+      "unit": "F",
+      "type": "alarm",
+      "alarmType": "enum",
+      "srno": 13,
+      "register": 13,
+      "fc": 3,
+      "word_swap": false,
+      "byte_swap": false,
+      "value": null
+    }
+  },
+  "plant_1_block_1_inverter_inverter_2_Alarm2": {
+    "device_id": "plant_1_block_1_inverter_inverter_2",
+    "tag": "Alarm2",
+    "info": {
+      "name": "Alarm2",
+      "alias": "Alarm2",
+      "dataType": "int16",
+      "min": 0,
+      "max": 1000,
+      "scaling": 1,
+      "unit": "kW",
+      "type": "alarm",
+      "alarmType": "bitwise",
+      "srno": 19,
+      "register": 19,
+      "fc": 3,
+      "word_swap": false,
+      "byte_swap": false,
+      "bitMap": {
+        "0": {
+          "alias": "RUN",
+          "severity": "info"
+        },
+        "1": {
+          "alias": "STOP",
+          "severity": "warning"
+        },
+        "2": {
+          "alias": "EMERGENCY",
+          "severity": "critical"
+        },
+        "3": {
+          "alias": "OVERHEAT",
+          "severity": "critical"
+        }
+      },
+      "value": null
+    }
+  },
+  "plant_1_block_1_inverter_inverter_3_Alarm1": {
+    "device_id": "plant_1_block_1_inverter_inverter_3",
+    "tag": "Alarm1",
+    "info": {
+      "name": "Alarm1",
+      "alias": "Alarm1",
+      "dataType": "int16",
+      "min": 0,
+      "max": 1000,
+      "scaling": 1,
+      "unit": "F",
+      "type": "alarm",
+      "alarmType": "enum",
+      "srno": 13,
+      "register": 13,
+      "fc": 3,
+      "word_swap": false,
+      "byte_swap": false,
+      "value": null
+    }
+  },
+  "plant_1_block_1_inverter_inverter_3_Alarm2": {
+    "device_id": "plant_1_block_1_inverter_inverter_3",
+    "tag": "Alarm2",
+    "info": {
+      "name": "Alarm2",
+      "alias": "Alarm2",
+      "dataType": "int16",
+      "min": 0,
+      "max": 1000,
+      "scaling": 1,
+      "unit": "kW",
+      "type": "alarm",
+      "alarmType": "bitwise",
+      "srno": 19,
+      "register": 19,
+      "fc": 3,
+      "word_swap": false,
+      "byte_swap": false,
+      "bitMap": {
+        "0": {
+          "alias": "RUN",
+          "severity": "info"
+        },
+        "1": {
+          "alias": "STOP",
+          "severity": "warning"
+        },
+        "2": {
+          "alias": "EMERGENCY",
+          "severity": "critical"
+        },
+        "3": {
+          "alias": "OVERHEAT",
+          "severity": "critical"
+        }
+      },
+      "value": null
+    }
+  },
+  "plant_1_block_1_inverter_inverter_4_Alarm1": {
+    "device_id": "plant_1_block_1_inverter_inverter_4",
+    "tag": "Alarm1",
+    "info": {
+      "name": "Alarm1",
+      "alias": "Alarm1",
+      "dataType": "int16",
+      "min": 0,
+      "max": 1000,
+      "scaling": 1,
+      "unit": "F",
+      "type": "alarm",
+      "alarmType": "enum",
+      "srno": 13,
+      "register": 13,
+      "fc": 3,
+      "word_swap": false,
+      "byte_swap": false,
+      "value": null
+    }
+  },
+  "plant_1_block_1_inverter_inverter_4_Alarm2": {
+    "device_id": "plant_1_block_1_inverter_inverter_4",
+    "tag": "Alarm2",
+    "info": {
+      "name": "Alarm2",
+      "alias": "Alarm2",
+      "dataType": "int16",
+      "min": 0,
+      "max": 1000,
+      "scaling": 1,
+      "unit": "kW",
+      "type": "alarm",
+      "alarmType": "bitwise",
+      "srno": 19,
+      "register": 19,
+      "fc": 3,
+      "word_swap": false,
+      "byte_swap": false,
+      "bitMap": {
+        "0": {
+          "alias": "RUN",
+          "severity": "info"
+        },
+        "1": {
+          "alias": "STOP",
+          "severity": "warning"
+        },
+        "2": {
+          "alias": "EMERGENCY",
+          "severity": "critical"
+        },
+        "3": {
+          "alias": "OVERHEAT",
+          "severity": "critical"
+        }
+      },
+      "value": null
+    }
+  },
+  "plant_1_block_1_inverter_inverter_5_Alarm1": {
+    "device_id": "plant_1_block_1_inverter_inverter_5",
+    "tag": "Alarm1",
+    "info": {
+      "name": "Alarm1",
+      "alias": "Alarm1",
+      "dataType": "int16",
+      "min": 0,
+      "max": 1000,
+      "scaling": 1,
+      "unit": "F",
+      "type": "alarm",
+      "alarmType": "enum",
+      "srno": 13,
+      "register": 13,
+      "fc": 3,
+      "word_swap": false,
+      "byte_swap": false,
+      "value": null
+    }
+  },
+  "plant_1_block_1_inverter_inverter_5_Alarm2": {
+    "device_id": "plant_1_block_1_inverter_inverter_5",
+    "tag": "Alarm2",
+    "info": {
+      "name": "Alarm2",
+      "alias": "Alarm2",
+      "dataType": "int16",
+      "min": 0,
+      "max": 1000,
+      "scaling": 1,
+      "unit": "kW",
+      "type": "alarm",
+      "alarmType": "bitwise",
+      "srno": 19,
+      "register": 19,
+      "fc": 3,
+      "word_swap": false,
+      "byte_swap": false,
+      "bitMap": {
+        "0": {
+          "alias": "RUN",
+          "severity": "info"
+        },
+        "1": {
+          "alias": "STOP",
+          "severity": "warning"
+        },
+        "2": {
+          "alias": "EMERGENCY",
+          "severity": "critical"
+        },
+        "3": {
+          "alias": "OVERHEAT",
+          "severity": "critical"
+        }
+      },
+      "value": null
+    }
+  },
+  "plant_1_block_1_inverter_inverter_6_Alarm1": {
+    "device_id": "plant_1_block_1_inverter_inverter_6",
+    "tag": "Alarm1",
+    "info": {
+      "name": "Alarm1",
+      "alias": "Alarm1",
+      "dataType": "int16",
+      "min": 0,
+      "max": 1000,
+      "scaling": 1,
+      "unit": "F",
+      "type": "alarm",
+      "alarmType": "enum",
+      "srno": 13,
+      "register": 13,
+      "fc": 3,
+      "word_swap": false,
+      "byte_swap": false,
+      "value": null
+    }
+  },
+  "plant_1_block_1_inverter_inverter_6_Alarm2": {
+    "device_id": "plant_1_block_1_inverter_inverter_6",
+    "tag": "Alarm2",
+    "info": {
+      "name": "Alarm2",
+      "alias": "Alarm2",
+      "dataType": "int16",
+      "min": 0,
+      "max": 1000,
+      "scaling": 1,
+      "unit": "kW",
+      "type": "alarm",
+      "alarmType": "bitwise",
+      "srno": 19,
+      "register": 19,
+      "fc": 3,
+      "word_swap": false,
+      "byte_swap": false,
+      "bitMap": {
+        "0": {
+          "alias": "RUN",
+          "severity": "info"
+        },
+        "1": {
+          "alias": "STOP",
+          "severity": "warning"
+        },
+        "2": {
+          "alias": "EMERGENCY",
+          "severity": "critical"
+        },
+        "3": {
+          "alias": "OVERHEAT",
+          "severity": "critical"
+        }
+      },
+      "value": null
+    }
+  },
+  "plant_1_block_1_inverter_inverter_7_Alarm1": {
+    "device_id": "plant_1_block_1_inverter_inverter_7",
+    "tag": "Alarm1",
+    "info": {
+      "name": "Alarm1",
+      "alias": "Alarm1",
+      "dataType": "int16",
+      "min": 0,
+      "max": 1000,
+      "scaling": 1,
+      "unit": "F",
+      "type": "alarm",
+      "alarmType": "enum",
+      "srno": 13,
+      "register": 13,
+      "fc": 3,
+      "word_swap": false,
+      "byte_swap": false,
+      "value": null
+    }
+  },
+  "plant_1_block_1_inverter_inverter_7_Alarm2": {
+    "device_id": "plant_1_block_1_inverter_inverter_7",
+    "tag": "Alarm2",
+    "info": {
+      "name": "Alarm2",
+      "alias": "Alarm2",
+      "dataType": "int16",
+      "min": 0,
+      "max": 1000,
+      "scaling": 1,
+      "unit": "kW",
+      "type": "alarm",
+      "alarmType": "bitwise",
+      "srno": 19,
+      "register": 19,
+      "fc": 3,
+      "word_swap": false,
+      "byte_swap": false,
+      "bitMap": {
+        "0": {
+          "alias": "RUN",
+          "severity": "info"
+        },
+        "1": {
+          "alias": "STOP",
+          "severity": "warning"
+        },
+        "2": {
+          "alias": "EMERGENCY",
+          "severity": "critical"
+        },
+        "3": {
+          "alias": "OVERHEAT",
+          "severity": "critical"
+        }
+      },
+      "value": null
+    }
+  },
+  "plant_1_block_1_inverter_inverter_8_Alarm1": {
+    "device_id": "plant_1_block_1_inverter_inverter_8",
+    "tag": "Alarm1",
+    "info": {
+      "name": "Alarm1",
+      "alias": "Alarm1",
+      "dataType": "int16",
+      "min": 0,
+      "max": 1000,
+      "scaling": 1,
+      "unit": "F",
+      "type": "alarm",
+      "alarmType": "enum",
+      "srno": 13,
+      "register": 13,
+      "fc": 3,
+      "word_swap": false,
+      "byte_swap": false,
+      "value": null
+    }
+  },
+  "plant_1_block_1_inverter_inverter_8_Alarm2": {
+    "device_id": "plant_1_block_1_inverter_inverter_8",
+    "tag": "Alarm2",
+    "info": {
+      "name": "Alarm2",
+      "alias": "Alarm2",
+      "dataType": "int16",
+      "min": 0,
+      "max": 1000,
+      "scaling": 1,
+      "unit": "kW",
+      "type": "alarm",
+      "alarmType": "bitwise",
+      "srno": 19,
+      "register": 19,
+      "fc": 3,
+      "word_swap": false,
+      "byte_swap": false,
+      "bitMap": {
+        "0": {
+          "alias": "RUN",
+          "severity": "info"
+        },
+        "1": {
+          "alias": "STOP",
+          "severity": "warning"
+        },
+        "2": {
+          "alias": "EMERGENCY",
+          "severity": "critical"
+        },
+        "3": {
+          "alias": "OVERHEAT",
+          "severity": "critical"
+        }
+      },
+      "value": null
+    }
+  },
+  "plant_1_block_1_inverter_inverter_9_Alarm1": {
+    "device_id": "plant_1_block_1_inverter_inverter_9",
+    "tag": "Alarm1",
+    "info": {
+      "name": "Alarm1",
+      "alias": "Alarm1",
+      "dataType": "int16",
+      "min": 0,
+      "max": 1000,
+      "scaling": 1,
+      "unit": "F",
+      "type": "alarm",
+      "alarmType": "enum",
+      "srno": 13,
+      "register": 13,
+      "fc": 3,
+      "word_swap": false,
+      "byte_swap": false,
+      "value": null
+    }
+  },
+  "plant_1_block_1_inverter_inverter_9_Alarm2": {
+    "device_id": "plant_1_block_1_inverter_inverter_9",
+    "tag": "Alarm2",
+    "info": {
+      "name": "Alarm2",
+      "alias": "Alarm2",
+      "dataType": "int16",
+      "min": 0,
+      "max": 1000,
+      "scaling": 1,
+      "unit": "kW",
+      "type": "alarm",
+      "alarmType": "bitwise",
+      "srno": 19,
+      "register": 19,
+      "fc": 3,
+      "word_swap": false,
+      "byte_swap": false,
+      "bitMap": {
+        "0": {
+          "alias": "RUN",
+          "severity": "info"
+        },
+        "1": {
+          "alias": "STOP",
+          "severity": "warning"
+        },
+        "2": {
+          "alias": "EMERGENCY",
+          "severity": "critical"
+        },
+        "3": {
+          "alias": "OVERHEAT",
+          "severity": "critical"
+        }
+      },
+      "value": null
+    }
+  },
+  "plant_1_block_1_inverter_inverter_10_Alarm1": {
+    "device_id": "plant_1_block_1_inverter_inverter_10",
+    "tag": "Alarm1",
+    "info": {
+      "name": "Alarm1",
+      "alias": "Alarm1",
+      "dataType": "int16",
+      "min": 0,
+      "max": 1000,
+      "scaling": 1,
+      "unit": "F",
+      "type": "alarm",
+      "alarmType": "enum",
+      "srno": 13,
+      "register": 13,
+      "fc": 3,
+      "word_swap": false,
+      "byte_swap": false,
+      "value": null
+    }
+  },
+  "plant_1_block_1_inverter_inverter_10_Alarm2": {
+    "device_id": "plant_1_block_1_inverter_inverter_10",
+    "tag": "Alarm2",
+    "info": {
+      "name": "Alarm2",
+      "alias": "Alarm2",
+      "dataType": "int16",
+      "min": 0,
+      "max": 1000,
+      "scaling": 1,
+      "unit": "kW",
+      "type": "alarm",
+      "alarmType": "bitwise",
+      "srno": 19,
+      "register": 19,
+      "fc": 3,
+      "word_swap": false,
+      "byte_swap": false,
+      "bitMap": {
+        "0": {
+          "alias": "RUN",
+          "severity": "info"
+        },
+        "1": {
+          "alias": "STOP",
+          "severity": "warning"
+        },
+        "2": {
+          "alias": "EMERGENCY",
+          "severity": "critical"
+        },
+        "3": {
+          "alias": "OVERHEAT",
+          "severity": "critical"
+        }
+      },
+      "value": null
+    }
+  },
+  "plant_1_block_1_inverter_inverter_11_Alarm1": {
+    "device_id": "plant_1_block_1_inverter_inverter_11",
+    "tag": "Alarm1",
+    "info": {
+      "name": "Alarm1",
+      "alias": "Alarm1",
+      "dataType": "int16",
+      "min": 0,
+      "max": 1000,
+      "scaling": 1,
+      "unit": "F",
+      "type": "alarm",
+      "alarmType": "enum",
+      "srno": 13,
+      "register": 13,
+      "fc": 3,
+      "word_swap": false,
+      "byte_swap": false,
+      "value": null
+    }
+  },
+  "plant_1_block_1_inverter_inverter_11_Alarm2": {
+    "device_id": "plant_1_block_1_inverter_inverter_11",
+    "tag": "Alarm2",
+    "info": {
+      "name": "Alarm2",
+      "alias": "Alarm2",
+      "dataType": "int16",
+      "min": 0,
+      "max": 1000,
+      "scaling": 1,
+      "unit": "kW",
+      "type": "alarm",
+      "alarmType": "bitwise",
+      "srno": 19,
+      "register": 19,
+      "fc": 3,
+      "word_swap": false,
+      "byte_swap": false,
+      "bitMap": {
+        "0": {
+          "alias": "RUN",
+          "severity": "info"
+        },
+        "1": {
+          "alias": "STOP",
+          "severity": "warning"
+        },
+        "2": {
+          "alias": "EMERGENCY",
+          "severity": "critical"
+        },
+        "3": {
+          "alias": "OVERHEAT",
+          "severity": "critical"
+        }
+      },
+      "value": null
+    }
+  }
+}

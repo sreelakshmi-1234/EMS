@@ -1,0 +1,11 @@
+{
+    "customer": "ABC Solar Plant",
+    "mac_id": "58-CD-C9-53-EC-16",
+    "hardware_fingerprint": "609e81bcc112d1056b2692a680181782aa4c0d5f98ad951f283816e3261c2cfc",
+    "expiry": "2027-12-31",
+    "features": [
+        "SCADA",
+        "EMS"
+    ],
+    "signature": "Dh3lvv9+3kmPfeFaHctVnsGUf4GoLpU5Nl3abE1BML/6x2HO4N+XJyxv+84pc/S2hBN6c+VAvbHugQRjPEbGjsu2nIaZWVp/R2pS8RvzmM7ptCXhmoPfFHgY7ahIUKFzMc1aih97AxPAUeKKHwQvMEMFAp2E7tjoqA6seY5QSnOqQS1gexqfncNKiQ26MD1RPub3FhqD71Zj6KsGrQZ25BCQVCltmfiBMaNqj692WT0uWTbQPNUWkxWvvX+fjX1tSEfqtVB20tB88K4J/F3RTIObBnMhVMgLBDq51GfFsyGhGd/zDBcwm+a35fZBJTH9iwddXVUPjbHN0ZOD+kj42A=="
+}

@@ -1,0 +1,18 @@
+{
+    "0": {
+        "name": "soc",
+        "alias": "State_of_Charge",
+        "dataType": "float",
+        "min": 0,
+        "max": 100,
+        "scaling": 1
+    },
+    "1": {
+        "name": "voltage",
+        "alias": "Battery_Voltage",
+        "dataType": "float",
+        "min": 0,
+        "max": 500,
+        "scaling": 0.1
+    }
+}

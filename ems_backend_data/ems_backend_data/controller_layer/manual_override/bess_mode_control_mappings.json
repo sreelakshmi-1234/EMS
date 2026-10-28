@@ -1,0 +1,16 @@
+{
+    "p": {
+        "mode_key": "Fan_speed_1",
+        "mode_active_value": 1,
+        "mode_deactive_value": 0,
+
+        "setpoint_key": "Fan_speed_2"
+    },
+    "q": {
+        "mode_key": "Fan_speed_3",
+        "mode_active_value": 1,
+        "mode_deactive_value": 0,
+
+        "setpoint_key": "Fan_speed_4"
+    }
+}

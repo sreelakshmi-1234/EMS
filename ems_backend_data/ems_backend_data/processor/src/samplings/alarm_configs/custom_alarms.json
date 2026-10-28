@@ -1,0 +1,84 @@
+{
+    "TEMP_EXCEEDED_BANK": {
+        "state": "Temperature Exceeded",
+        "severity": "warning",
+        "remark": "initiate cooling and alert",
+        "device_profile": {
+            "consider": "device_type",
+            "device_type": "bank"
+        },
+        "raise_condition": [
+            {
+                "key_filter": [
+                    {
+                        "name": "Battery_cabin_temperature_1",
+                        "data_type": "number",
+                        "conditions": [
+                            {
+                                "type": "greater_than",
+                                "value": 40
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "clear_condition": [
+            {
+                "key_filter": [
+                    {
+                        "name": "Battery_cabin_temperature_1",
+                        "data_type": "number",
+                        "conditions": [
+                            {
+                                "type": "less_than_equal",
+                                "value": 40
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "TEMP_HIGH_BANK": {
+        "state": "Trip",
+        "severity": "Critical",
+        "remark": "Critical High Temperature - Immediate System Isolation/Shutdown to prevent thermal runaway",
+        "device_profile": {
+            "consider": "device_type",
+            "device_type": "bank"
+        },
+        "raise_condition": [
+            {
+                "key_filter": [
+                    {
+                        "name": "Battery_cabin_temperature_1",
+                        "data_type": "number",
+                        "conditions": [
+                            {
+                                "type": "greater_than",
+                                "value": 55
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "clear_condition": [
+            {
+                "key_filter": [
+                    {
+                        "name": "Battery_cabin_temperature_1",
+                        "data_type": "number",
+                        "conditions": [
+                            {
+                                "type": "less_than_equal",
+                                "value": 55
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

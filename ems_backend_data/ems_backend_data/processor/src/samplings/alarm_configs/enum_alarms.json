@@ -1,0 +1,810 @@
+{
+    "sungrow320hx_work_state": {
+        "mapping": {
+            "0": {
+                "state": "Run",
+                "severity": "normal"
+            },
+            "32768": {
+                "state": "Stop",
+                "severity": "stopped"
+            },
+            "4864": {
+                "state": "Key stop",
+                "severity": "warning"
+            },
+            "5376": {
+                "state": "Emergency Stop",
+                "severity": "critical"
+            },
+            "5120": {
+                "state": "Standby",
+                "severity": "normal"
+            },
+            "4608": {
+                "state": "Initial standby",
+                "severity": "normal"
+            },
+            "5632": {
+                "state": "Starting",
+                "severity": "info"
+            },
+            "37120": {
+                "state": "Alarm run",
+                "severity": "warning"
+            },
+            "33024": {
+                "state": "Derating run",
+                "severity": "warning"
+            },
+            "33280": {
+                "state": "Dispatch run",
+                "severity": "info"
+            },
+            "21760": {
+                "state": "Fault",
+                "severity": "critical"
+            },
+            "9472": {
+                "state": "Communicate fault",
+                "severity": "critical"
+            }
+        }
+    },
+    "sungrow320hx_fault_alarm_code": {
+        "mapping": {
+            "2": {
+                "state": "Grid overvoltage",
+                "severity": "critical"
+            },
+            "3": {
+                "state": "Grid transient overvoltage",
+                "severity": "critical"
+            },
+            "4": {
+                "state": "Grid undervoltage",
+                "severity": "critical"
+            },
+            "5": {
+                "state": "Grid low voltage",
+                "severity": "critical"
+            },
+            "7": {
+                "state": "AC instantaneous overcurrent",
+                "severity": "critical"
+            },
+            "8": {
+                "state": "Grid overfrequency",
+                "severity": "critical"
+            },
+            "9": {
+                "state": "Grid underfrequency",
+                "severity": "critical"
+            },
+            "10": {
+                "state": "Grid power outage",
+                "severity": "critical"
+            },
+            "11": {
+                "state": "Device abnormal",
+                "severity": "critical"
+            },
+            "12": {
+                "state": "Excessive leakage current",
+                "severity": "critical"
+            },
+            "13": {
+                "state": "Grid abnormal",
+                "severity": "critical"
+            },
+            "14": {
+                "state": "10-minute grid overvoltage",
+                "severity": "critical"
+            },
+            "15": {
+                "state": "Grid high voltage",
+                "severity": "critical"
+            },
+            "16": {
+                "state": "Output overload",
+                "severity": "critical"
+            },
+            "17": {
+                "state": "Grid voltage unbalance",
+                "severity": "critical"
+            },
+            "19": {
+                "state": "Device abnormal",
+                "severity": "critical"
+            },
+            "20": {
+                "state": "Device abnormal",
+                "severity": "critical"
+            },
+            "21": {
+                "state": "Device abnormal",
+                "severity": "critical"
+            },
+            "22": {
+                "state": "Device abnormal",
+                "severity": "critical"
+            },
+            "23": {
+                "state": "PV connection fault",
+                "severity": "critical"
+            },
+            "24": {
+                "state": "Device abnormal",
+                "severity": "critical"
+            },
+            "25": {
+                "state": "Device abnormal",
+                "severity": "critical"
+            },
+            "30": {
+                "state": "Device abnormal",
+                "severity": "critical"
+            },
+            "31": {
+                "state": "Device abnormal",
+                "severity": "critical"
+            },
+            "32": {
+                "state": "Device abnormal",
+                "severity": "critical"
+            },
+            "33": {
+                "state": "Device abnormal",
+                "severity": "critical"
+            },
+            "34": {
+                "state": "Device abnormal",
+                "severity": "critical"
+            },
+            "36": {
+                "state": "Excessively high module temperature",
+                "severity": "critical"
+            },
+            "37": {
+                "state": "Excessively high ambient temperature",
+                "severity": "critical"
+            },
+            "38": {
+                "state": "Device abnormal",
+                "severity": "critical"
+            },
+            "39": {
+                "state": "Low system insulation resistance",
+                "severity": "critical"
+            },
+            "40": {
+                "state": "Device abnormal",
+                "severity": "critical"
+            },
+            "41": {
+                "state": "Device abnormal",
+                "severity": "critical"
+            },
+            "42": {
+                "state": "Device abnormal",
+                "severity": "critical"
+            },
+            "43": {
+                "state": "Low ambient temperature",
+                "severity": "critical"
+            },
+            "44": {
+                "state": "Device abnormal",
+                "severity": "critical"
+            },
+            "45": {
+                "state": "Device abnormal",
+                "severity": "critical"
+            },
+            "46": {
+                "state": "Device abnormal",
+                "severity": "critical"
+            },
+            "47": {
+                "state": "PV input configuration abnormal",
+                "severity": "critical"
+            },
+            "48": {
+                "state": "Device abnormal",
+                "severity": "critical"
+            },
+            "49": {
+                "state": "Device abnormal",
+                "severity": "critical"
+            },
+            "50": {
+                "state": "Device abnormal",
+                "severity": "critical"
+            },
+            "53": {
+                "state": "Device abnormal",
+                "severity": "critical"
+            },
+            "54": {
+                "state": "Device abnormal",
+                "severity": "critical"
+            },
+            "55": {
+                "state": "Device abnormal",
+                "severity": "critical"
+            },
+            "56": {
+                "state": "Device abnormal",
+                "severity": "critical"
+            },
+            "59": {
+                "state": "Device abnormal",
+                "severity": "warning"
+            },
+            "60": {
+                "state": "Device abnormal",
+                "severity": "critical"
+            },
+            "70": {
+                "state": "Fan alarm",
+                "severity": "warning"
+            },
+            "71": {
+                "state": "AC-side SPD alarm",
+                "severity": "warning"
+            },
+            "72": {
+                "state": "DC-side SPD alarm",
+                "severity": "warning"
+            },
+            "74": {
+                "state": "Communication alarm",
+                "severity": "warning"
+            },
+            "76": {
+                "state": "Device abnormal",
+                "severity": "warning"
+            },
+            "79": {
+                "state": "PV2 abnormal",
+                "severity": "warning"
+            },
+            "80": {
+                "state": "PV3 abnormal",
+                "severity": "warning"
+            },
+            "81": {
+                "state": "PV4 abnormal",
+                "severity": "warning"
+            },
+            "87": {
+                "state": "Electric arc detection module abnormal",
+                "severity": "warning"
+            },
+            "88": {
+                "state": "Electric arc fault",
+                "severity": "warning"
+            },
+            "89": {
+                "state": "Electric arc detection disabled",
+                "severity": "critical"
+            },
+            "105": {
+                "state": "Grid-side protection self-check failure",
+                "severity": "warning"
+            },
+            "106": {
+                "state": "Grounding cable fault",
+                "severity": "critical"
+            },
+            "116": {
+                "state": "Device abnormal",
+                "severity": "critical"
+            },
+            "117": {
+                "state": "Device abnormal",
+                "severity": "critical"
+            },
+            "220": {
+                "state": "PV5 abnormal",
+                "severity": "critical"
+            },
+            "221": {
+                "state": "PV6 abnormal",
+                "severity": "warning"
+            },
+            "222": {
+                "state": "PV7 abnormal",
+                "severity": "warning"
+            },
+            "223": {
+                "state": "PV8 abnormal",
+                "severity": "warning"
+            },
+            "224": {
+                "state": "PV9 abnormal",
+                "severity": "warning"
+            },
+            "225": {
+                "state": "PV10 abnormal",
+                "severity": "warning"
+            },
+            "226": {
+                "state": "PV11 abnormal",
+                "severity": "warning"
+            },
+            "227": {
+                "state": "PV12 abnormal",
+                "severity": "warning"
+            },
+            "514": {
+                "state": "Meter communication abnormal alarm",
+                "severity": "warning"
+            },
+            "1500": {
+                "state": "PV1 overvoltage",
+                "severity": "critical"
+            },
+            "1501": {
+                "state": "PV2 overvoltage",
+                "severity": "critical"
+            },
+            "1502": {
+                "state": "PV3 overvoltage",
+                "severity": "critical"
+            },
+            "1503": {
+                "state": "PV4 overvoltage",
+                "severity": "critical"
+            },
+            "1504": {
+                "state": "PV5 overvoltage",
+                "severity": "critical"
+            },
+            "1505": {
+                "state": "PV6 overvoltage",
+                "severity": "critical"
+            },
+            "1506": {
+                "state": "PV7 overvoltage",
+                "severity": "critical"
+            },
+            "1507": {
+                "state": "PV8 overvoltage",
+                "severity": "critical"
+            },
+            "1508": {
+                "state": "PV9 overvoltage",
+                "severity": "critical"
+            },
+            "1509": {
+                "state": "PV10 overvoltage",
+                "severity": "critical"
+            },
+            "1510": {
+                "state": "PV11 overvoltage",
+                "severity": "critical"
+            },
+            "1511": {
+                "state": "PV12 overvoltage",
+                "severity": "critical"
+            },
+            "1512": {
+                "state": "PV13 overvoltage",
+                "severity": "critical"
+            },
+            "1513": {
+                "state": "PV14 overvoltage",
+                "severity": "critical"
+            },
+            "1514": {
+                "state": "PV15 overvoltage",
+                "severity": "critical"
+            },
+            "1515": {
+                "state": "PV16 overvoltage",
+                "severity": "critical"
+            },
+            "1516": {
+                "state": "PV17 overvoltage",
+                "severity": "critical"
+            },
+            "1517": {
+                "state": "PV18 overvoltage",
+                "severity": "critical"
+            },
+            "1518": {
+                "state": "PV19 overvoltage",
+                "severity": "critical"
+            },
+            "1519": {
+                "state": "PV20 overvoltage",
+                "severity": "critical"
+            },
+            "1520": {
+                "state": "PV21 overvoltage",
+                "severity": "critical"
+            },
+            "1521": {
+                "state": "PV22 overvoltage",
+                "severity": "critical"
+            },
+            "1522": {
+                "state": "PV23 overvoltage",
+                "severity": "critical"
+            },
+            "1523": {
+                "state": "PV24 overvoltage",
+                "severity": "critical"
+            },
+            "1524": {
+                "state": "PV25 overvoltage",
+                "severity": "critical"
+            },
+            "1525": {
+                "state": "PV26 overvoltage",
+                "severity": "critical"
+            },
+            "1526": {
+                "state": "PV27 overvoltage",
+                "severity": "critical"
+            },
+            "1527": {
+                "state": "PV28 overvoltage",
+                "severity": "critical"
+            },
+            "1528": {
+                "state": "PV29 overvoltage",
+                "severity": "critical"
+            },
+            "1529": {
+                "state": "PV30 overvoltage",
+                "severity": "critical"
+            },
+            "1530": {
+                "state": "PV31 overvoltage",
+                "severity": "critical"
+            },
+            "1531": {
+                "state": "PV32 overvoltage",
+                "severity": "critical"
+            }
+        }
+    },
+    "hoymiles_run_state_branch_1": {
+        "mapping": {
+            "0": {
+                "state": "Fault Shutdown",
+                "severity": "critical"
+            },
+            "1": {
+                "state": "Normal Shutdown",
+                "severity": "normal"
+            },
+            "2": {
+                "state": "Standby",
+                "severity": "normal"
+            },
+            "3": {
+                "state": "Discharge Operation",
+                "severity": "normal"
+            },
+            "4": {
+                "state": "Charge Operation",
+                "severity": "normal"
+            },
+            "5": {
+                "state": "Zero-Power Operation",
+                "severity": "critical"
+            }
+        }
+    },
+    "hoymiles_run_state_branch_2": {
+        "mapping": {
+            "0": {
+                "state": "Fault Shutdown",
+                "severity": "critical"
+            },
+            "1": {
+                "state": "Normal Shutdown",
+                "severity": "normal"
+            },
+            "2": {
+                "state": "Standby",
+                "severity": "normal"
+            },
+            "3": {
+                "state": "Discharge Operation",
+                "severity": "normal"
+            },
+            "4": {
+                "state": "Charge Operation",
+                "severity": "normal"
+            },
+            "5": {
+                "state": "Zero-Power Operation",
+                "severity": "critical"
+            }
+        }
+    },
+    "hoymilesbank_system_state": {
+        "mapping": {
+            "0": {
+                "state": "Initial State",
+                "severity": "info"
+            },
+            "1": {
+                "state": "Charging",
+                "severity": "info"
+            },
+            "2": {
+                "state": "Discharging",
+                "severity": "info"
+            },
+            "3": {
+                "state": "Ready",
+                "severity": "info"
+            },
+            "4": {
+                "state": "Cluster Maintenance",
+                "severity": "warning"
+            },
+            "5": {
+                "state": "Charge Prohibition",
+                "severity": "warning"
+            },
+            "6": {
+                "state": "Discharge Prohibition",
+                "severity": "warning"
+            },
+            "7": {
+                "state": "Charging and Discharging Prohibited",
+                "severity": "warning"
+            },
+            "8": {
+                "state": "Fault",
+                "severity": "critical"
+            },
+            "9": {
+                "state": "Fault Recovery",
+                "severity": "warning"
+            },
+            "10": {
+                "state": "Test Mode",
+                "severity": "warning"
+            },
+            "11": {
+                "state": "Power-Off",
+                "severity": "info"
+            },
+            "12": {
+                "state": "power-off completed",
+                "severity": "info"
+            }
+        }
+    },
+     "charge_discharge_state": {
+        "mapping":{
+            "0": { 
+                "state": "Others",
+                "severity": "info" 
+            },
+            "1": { 
+                "state": "Discharge", 
+                "severity": "info"
+             },
+            "2": { 
+                "state": "Charge", 
+                "severity": "info" 
+            }
+        }
+    },
+    "state": {
+        "mapping": {
+        "0": { 
+            "state": "Initial State",
+             "severity": "info" 
+            },
+        "1": { 
+            "state": "Charging",
+             "severity": "info"
+             },
+        "2": { 
+            "state": "Discharging",
+             "severity": "info"
+             },
+        "3": { 
+            "state": "Ready", 
+            "severity": "info"
+         },
+         "4": { 
+             "state": "Cluster Maintenance", 
+             "severity": "warning"
+             },
+        "5": { 
+             "state": "Charge Prohibition", 
+            "severity": "warning"
+             },
+        "6":{
+            "state": "Discharge Prohibition", 
+            "severity": "warning"
+            },
+        "7": {
+            "state": "Charging and Discharging Prohibited",
+            "severity": "warning"
+        },
+        "8": {
+             "state": "Fault", 
+             "severity": "critical"
+             },
+        "9": { 
+            "state": "Fault Recovery", 
+            "severity": "warning"
+         },
+        "10": { 
+            "state": "Test Mode", 
+            "severity": "info"
+         }
+        }
+    },
+    "Alarm1": {
+        "mapping": {
+            "0": {
+                "state": "STOP",
+                "severity": "info"
+            },
+            "1": {
+                "state": "RUN",
+                "severity": "warning"
+            },
+            "2": {
+                "state": "EMERGENCY",
+                "severity": "critical"
+            }
+        }
+    },
+    "Alarm2": {
+        "mapping": {
+            "0": {
+                "state": "IDLE",
+                "severity": "info"
+            },
+            "1": {
+                "state": "ACTIVE",
+                "severity": "warning"
+            },
+            "2": {
+                "state": "FAULT",
+                "severity": "critical"
+            }
+        }
+    },
+    "Alarm3": {
+        "mapping": {
+            "0": {
+                "state": "CLOSED",
+                "severity": "info"
+            },
+            "1": {
+                "state": "OPEN",
+                "severity": "warning"
+            },
+            "2": {
+                "state": "STUCK",
+                "severity": "critical"
+            }
+        }
+    },
+    "Alarm4": {
+        "mapping": {
+            "0": {
+                "state": "OK",
+                "severity": "info"
+            },
+            "1": {
+                "state": "MINOR_FAULT",
+                "severity": "warning"
+            },
+            "2": {
+                "state": "MAJOR_FAULT",
+                "severity": "critical"
+            }
+        }
+    },
+    "Alarm5": {
+        "mapping": {
+            "0": {
+                "state": "READY",
+                "severity": "info"
+            },
+            "1": {
+                "state": "RUNNING",
+                "severity": "info"
+            },
+            "2": {
+                "state": "TRIPPED",
+                "severity": "critical"
+            }
+        }
+    },
+    "Alarm6": {
+        "mapping": {
+            "0": {
+                "state": "NORMAL",
+                "severity": "info"
+            },
+            "1": {
+                "state": "OVERLOAD",
+                "severity": "warning"
+            },
+            "2": {
+                "state": "SHUTDOWN",
+                "severity": "critical"
+            }
+        }
+    },
+    "Alarm7": {
+        "mapping": {
+            "0": {
+                "state": "DISABLED",
+                "severity": "info"
+            },
+            "1": {
+                "state": "ENABLED",
+                "severity": "info"
+            },
+            "2": {
+                "state": "ERROR",
+                "severity": "critical"
+            }
+        }
+    },
+    "Alarm8": {
+        "mapping": {
+            "0": {
+                "state": "OFFLINE",
+                "severity": "warning"
+            },
+            "1": {
+                "state": "ONLINE",
+                "severity": "info"
+            },
+            "2": {
+                "state": "COMM_ERROR",
+                "severity": "critical"
+            }
+        }
+    },
+    "Alarm9": {
+        "mapping": {
+            "0": {
+                "state": "OK",
+                "severity": "info"
+            },
+            "1": {
+                "state": "WARNING",
+                "severity": "warning"
+            },
+            "2": {
+                "state": "FAILURE",
+                "severity": "critical"
+            }
+        }
+    },
+    "Alarm10": {
+        "mapping": {
+            "0": {
+                "state": "NORMAL",
+                "severity": "info"
+            },
+            "1": {
+                "state": "ABNORMAL",
+                "severity": "warning"
+            },
+            "2": {
+                "state": "DANGEROUS",
+                "severity": "critical"
+            }
+        }
+    }
+}

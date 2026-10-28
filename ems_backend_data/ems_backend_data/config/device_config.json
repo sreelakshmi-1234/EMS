@@ -1,0 +1,46 @@
+{
+    "devices": [
+        {
+            "server_ip": "127.0.0.1",
+            "server_port": 513,
+            "slave_id": 5,
+            "plant": 1,
+            "block": null,
+            "pcs": 2,
+            "deviceType": "rack",
+            "device_id": "plant_1_pcs_2_rack_rack_1",
+            "channel": 5,
+            "request_timeout": 0.1,
+            "connect_timeout": 0.1,
+            "make": "rack_test",
+            "model": "rackTestModel",
+            "function": 4
+        }
+    ],
+    "meters": [],
+    "virtual": [],
+    "computed_devices": [
+        {
+            "deviceType": "computed",
+            "device_id": "plant_1_plant_device",
+            "make": "computed_device",
+            "model": "plant"
+        }
+    ],
+    "computed_tags": [
+        {
+            "deviceType": "inverter",
+            "device_id": "inverter",
+            "make": "computed_tags",
+            "model": "inverter"
+        }
+    ],
+    "polling_interval": 1,
+    "plant_config": {
+        "plantName": "shubham",
+        "capacityMW": 5,
+        "capacitorKVAR": 5,
+        "location": "ghazipur",
+        "description": "hometown"
+    }
+}

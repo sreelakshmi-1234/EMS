@@ -1,0 +1,56 @@
+{
+  "Alarm1": {
+    "name": "Alarm1",
+    "alias": "Alarm1",
+    "dataType": "int16",
+    "min": 0,
+    "max": 1000,
+    "scaling": 1,
+    "unit": "F",
+    "type": "alarm",
+    "alarmType": "enum",
+    "srno": 13,
+    "register": 13,
+    "fc": 3,
+    "word_swap": false,
+    "byte_swap": false,
+    "value": null,
+    "Time_Stamp": null
+  },
+  "Alarm2": {
+    "name": "Alarm2",
+    "alias": "Alarm2",
+    "dataType": "int16",
+    "min": 0,
+    "max": 1000,
+    "scaling": 1,
+    "unit": "kW",
+    "type": "alarm",
+    "alarmType": "bitwise",
+    "srno": 19,
+    "register": 19,
+    "fc": 3,
+    "word_swap": false,
+    "byte_swap": false,
+    "bitMap": {
+      "0": {
+        "alias": "RUN",
+        "severity": "info"
+      },
+      "1": {
+        "alias": "STOP",
+        "severity": "warning"
+      },
+      "2": {
+        "alias": "EMERGENCY",
+        "severity": "critical"
+      },
+      "3": {
+        "alias": "OVERHEAT",
+        "severity": "critical"
+      }
+    },
+    "value": null,
+    "Time_Stamp": null
+  }
+}

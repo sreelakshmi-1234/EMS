@@ -1,0 +1,178 @@
+{
+  "maximum_allowable_charging_power": {
+    "value": 1615.8,
+    "Time_Stamp": "2026-10-01 18:53:00"
+  },
+  "maximum_allowable_discharging_power": {
+    "value": 2462.0,
+    "Time_Stamp": "2026-10-01 18:53:00"
+  },
+  "maximum_allowable_charging_voltage": {
+    "value": 2974.9,
+    "Time_Stamp": "2026-10-01 18:53:00"
+  },
+  "maximum_allowable_discharging_voltage": {
+    "value": -1562.4,
+    "Time_Stamp": "2026-10-01 18:53:00"
+  },
+  "maximum_allowable_charging_current": {
+    "value": 257.2,
+    "Time_Stamp": "2026-10-01 18:53:00"
+  },
+  "maximum_allowable_discharging_current": {
+    "value": 3004.0,
+    "Time_Stamp": "2026-10-01 18:53:00"
+  },
+  "input_1": {
+    "value": 12060.0,
+    "Time_Stamp": "2026-10-01 18:53:00"
+  },
+  "input_2": {
+    "value": -30652.0,
+    "Time_Stamp": "2026-10-01 18:53:00"
+  },
+  "input_3": {
+    "value": -22066.0,
+    "Time_Stamp": "2026-10-01 18:53:00"
+  },
+  "input_4": {
+    "value": -24790.0,
+    "Time_Stamp": "2026-10-01 18:53:00"
+  },
+  "input_5": {
+    "value": -758.0,
+    "Time_Stamp": "2026-10-01 18:53:00"
+  },
+  "input_6": {
+    "value": 6960.0,
+    "Time_Stamp": "2026-10-01 18:53:00"
+  },
+  "input_7": {
+    "value": 24146.0,
+    "Time_Stamp": "2026-10-01 18:53:00"
+  },
+  "input_8": {
+    "value": 21554.0,
+    "Time_Stamp": "2026-10-01 18:53:00"
+  },
+  "total_voltage": {
+    "value": 3142.6,
+    "Time_Stamp": "2026-10-01 18:53:00"
+  },
+  "current": {
+    "value": 157.2,
+    "Time_Stamp": "2026-10-01 18:53:00"
+  },
+  "module_temperature": {
+    "value": 32170.0,
+    "Time_Stamp": "2026-10-01 18:53:00"
+  },
+  "soc": {
+    "value": -23578.0,
+    "Time_Stamp": "2026-10-01 18:53:00"
+  },
+  "soh": {
+    "value": -28846.0,
+    "Time_Stamp": "2026-10-01 18:53:00"
+  },
+  "insulation_resistance": {
+    "value": 1044.0,
+    "Time_Stamp": "2026-10-01 18:53:00"
+  },
+  "average_cell_voltage": {
+    "value": -1.966,
+    "Time_Stamp": "2026-10-01 18:53:00"
+  },
+  "average_cell_temperature": {
+    "value": 16762.0,
+    "Time_Stamp": "2026-10-01 18:53:00"
+  },
+  "maximum_cell_voltage": {
+    "value": -3.666,
+    "Time_Stamp": "2026-10-01 18:53:00"
+  },
+  "maximum_cell_voltage_point_no": {
+    "value": -26066.0,
+    "Time_Stamp": "2026-10-01 18:53:00"
+  },
+  "minimum_cell_voltage": {
+    "value": -3.77,
+    "Time_Stamp": "2026-10-01 18:53:00"
+  },
+  "minimum_cell_voltage_point_no": {
+    "value": 21952.0,
+    "Time_Stamp": "2026-10-01 18:53:00"
+  },
+  "maximum_cell_temperature": {
+    "value": 15094.0,
+    "Time_Stamp": "2026-10-01 18:53:00"
+  },
+  "maximum_cell_temperature_point_no": {
+    "value": -19132.0,
+    "Time_Stamp": "2026-10-01 18:53:00"
+  },
+  "minimum_cell_temperature": {
+    "value": 24242.0,
+    "Time_Stamp": "2026-10-01 18:53:00"
+  },
+  "minimum_cell_temperature_point_no": {
+    "value": 15376.0,
+    "Time_Stamp": "2026-10-01 18:53:00"
+  },
+  "maximum_cell_soc": {
+    "value": 13272.0,
+    "Time_Stamp": "2026-10-01 18:53:00"
+  },
+  "maximum_cell_soc_point_no": {
+    "value": -11406.0,
+    "Time_Stamp": "2026-10-01 18:53:00"
+  },
+  "minimum_cell_soc": {
+    "value": -11952.0,
+    "Time_Stamp": "2026-10-01 18:53:00"
+  },
+  "minimum_cell_soc_point_no": {
+    "value": -26980.0,
+    "Time_Stamp": "2026-10-01 18:53:00"
+  },
+  "maximum_cell_soh": {
+    "value": -25698.0,
+    "Time_Stamp": "2026-10-01 18:53:00"
+  },
+  "maximum_cell_soh_point_no": {
+    "value": -31064.0,
+    "Time_Stamp": "2026-10-01 18:53:00"
+  },
+  "minimum_cell_soh": {
+    "value": -21572.0,
+    "Time_Stamp": "2026-10-01 18:53:00"
+  },
+  "minimum_cell_soh_point_no": {
+    "value": 8396.0,
+    "Time_Stamp": "2026-10-01 18:53:00"
+  },
+  "accumulated_charging_capacity": {
+    "value": 1852.0,
+    "Time_Stamp": "2026-10-01 18:53:00"
+  },
+  "accumulated_discharging_capacity": {
+    "value": 2950.4,
+    "Time_Stamp": "2026-10-01 18:53:00"
+  },
+  "accumulated_charge_quantity_single_time": {
+    "value": 4129.6,
+    "Time_Stamp": "2026-10-01 18:53:00"
+  },
+  "accumulated_discharge_quantity_single_time": {
+    "value": 437.2,
+    "Time_Stamp": "2026-10-01 18:53:00"
+  },
+  "rechargeable_capacity": {
+    "value": 5277.2,
+    "Time_Stamp": "2026-10-01 18:53:00"
+  },
+  "discharge_capacity": {
+    "value": 1449.0,
+    "Time_Stamp": "2026-10-01 18:53:00"
+  }
+}

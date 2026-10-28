@@ -1,0 +1,402 @@
+{
+    "Parameter_100": {
+        "resolution": 59,
+        "aggregation": "last"
+    },
+    "Parameter_101": {
+        "resolution": 59,
+        "aggregation": "last"
+    },
+    "Parameter_102": {
+        "resolution": 59,
+        "aggregation": "last"
+    },
+    "Parameter_103": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "Parameter_104": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "Parameter_105": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "Parameter_106": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "Parameter_107": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "Parameter_108": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "Parameter_109": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "Parameter_110": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "Parameter_111": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "Parameter_112": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "Parameter_113": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "Parameter_114": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "Parameter_115": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "Parameter_116": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "Parameter_117": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "Parameter_118": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "Parameter_119": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "Parameter_120": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "Parameter_121": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "Parameter_122": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "Parameter_123": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "Parameter_124": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "Parameter_125": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "Parameter_126": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "Parameter_127": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "Parameter_128": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "Parameter_129": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "Parameter_130": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "Parameter_131": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "Parameter_132": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "Parameter_133": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "Parameter_134": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "Parameter_135": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "Parameter_136": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "Parameter_137": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "Parameter_138": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "Parameter_139": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "Parameter_140": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "Parameter_141": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "Parameter_142": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "Parameter_143": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "Parameter_144": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "Parameter_145": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "Parameter_146": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "Parameter_147": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "Parameter_148": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "Parameter_149": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "Parameter_150": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "Parameter_151": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "Parameter_152": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "Parameter_153": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "Parameter_154": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "Parameter_155": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "Parameter_156": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "Parameter_157": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "Parameter_158": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "Parameter_159": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "Parameter_160": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "Parameter_161": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "Parameter_162": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "Parameter_163": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "Parameter_164": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "Parameter_165": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "Parameter_166": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "Parameter_167": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "Parameter_168": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "Parameter_169": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "Parameter_170": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "Parameter_171": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "Parameter_172": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "Parameter_173": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "Parameter_174": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "Parameter_175": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "Parameter_176": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "Parameter_177": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "Parameter_178": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "Parameter_179": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "Parameter_180": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "Parameter_181": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "Parameter_182": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "Parameter_183": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "Parameter_184": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "Parameter_185": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "Parameter_186": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "Parameter_187": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "Parameter_188": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "Parameter_189": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "Parameter_190": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "Parameter_191": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "Parameter_192": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "Parameter_193": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "Parameter_194": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "Parameter_195": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "Parameter_196": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "Parameter_197": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "Parameter_198": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "Parameter_199": {
+        "resolution": 59,
+        "aggregation": "avg"
+    }
+}

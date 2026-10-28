@@ -1,0 +1,20 @@
+{
+    "max_soc" : 80,
+    "min_soc" : 20,
+    "battery_capacity" : 5000,
+    "efficiency" : 90,
+    "diff_tariff" : 2,
+    "ramp_rate_kw_per_min" : 500,
+    "power_rating_kw" : 1000000000000,
+
+    "peak_load_threshold" : 400,
+    
+    "grid_max_power" : 10000,
+
+    "pv_capacity_kw": 600,
+
+    "load_rise_kw_per_sec" : 2.5,
+    "pv_drop_kw_sec": 2.5,
+
+    "ems_response_time_delay_sec": 20
+}

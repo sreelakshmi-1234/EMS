@@ -1,0 +1,67 @@
+{
+  "Time_Stamp": {
+    "dataType": "timestamp",
+    "value": "2026-09-09 14:54:00",
+    "type": "analog"
+  },
+  "Total_INV_Availability": {
+    "alias": "Total_INV_Availability",
+    "deviceType": "inverter",
+    "dataType": "float",
+    "min": 0,
+    "max": 100,
+    "scaling": 1,
+    "type": "computed",
+    "unit": "%",
+    "functionName": null,
+    "value": null
+  },
+  "Total_INV_PR": {
+    "alias": "Total_INV_PR",
+    "deviceType": "inverter",
+    "dataType": "float",
+    "min": 0,
+    "max": 100,
+    "scaling": 1,
+    "type": "computed",
+    "unit": "%",
+    "functionName": null,
+    "value": null
+  },
+  "INV_Total_Power": {
+    "alias": "INV_Total_Power",
+    "deviceType": "inverter",
+    "dataType": "float",
+    "min": 0,
+    "max": 100,
+    "scaling": 1,
+    "type": "computed",
+    "unit": "%",
+    "functionName": "Plant_INV_Total_Power_Executer",
+    "value": 0.0
+  },
+  "INV_Total_Daily_AC_Energy": {
+    "alias": "INV_Total_Daily_AC_Energy",
+    "deviceType": "inverter",
+    "dataType": "float",
+    "min": 0,
+    "max": 100,
+    "scaling": 1,
+    "type": "computed",
+    "unit": "%",
+    "functionName": "Plant_INV_Total_Daily_AC_Energy_Executer",
+    "value": 0.0
+  },
+  "ESS_Total_Power": {
+    "alias": "ESS_Total_Power",
+    "deviceType": "ess",
+    "dataType": "float",
+    "min": 0,
+    "max": 100,
+    "scaling": 1,
+    "type": "computed",
+    "unit": "%",
+    "functionName": "Plant_ESS_Total_Power_Executer",
+    "value": null
+  }
+}

@@ -1,0 +1,500 @@
+{
+  "60180": {
+    "name": "fault_word_1",
+    "alias": "fault_word_1",
+    "dataType": "int16",
+    "min": -32768,
+    "max": 32767,
+    "scaling": 1,
+    "unit": "",
+    "type": "alarm",
+    "fc": 3,
+    "srno": 0,
+    "register": 60180,
+    "word_swap": "big_endian",
+    "byte_swap": "big_endian",
+    "enable": true,
+    "alarmType": "bitwise",
+    "bitMap": {
+    "0": {
+        "alias": "Grid Overvoltage",
+        "severity": "critical"
+      },
+      "1": {
+        "alias": "Battery Hardware Overcurrent",
+        "severity": "critical"
+      },
+      "2": {
+        "alias": "Module Hardware Overcurrent",
+        "severity": "critical"
+      },
+      "3": {
+        "alias": "Module Software Overcurrent",
+        "severity": "critical"
+      },  
+      "4": {
+        "alias": "Half-Bus Hardware Overvoltage",
+        "severity": "critical"
+      },
+      "5": {
+        "alias": "Module IGBT Fault",
+        "severity": "critical"
+      },
+      "6": {
+        "alias": "DC Main Switch Fault",
+        "severity": "critical"
+      },
+      "7": {
+        "alias": "Reserved",
+        "severity": "info"
+      },
+      "8": {
+        "alias": "Discharge Timeout",
+        "severity": "critical"
+      },
+      "9": {
+        "alias": "AC Main Switch Fault",
+        "severity": "critical"
+      },
+      "10": {
+        "alias": "Overloading",
+        "severity": "critical"
+      },
+      "11": {
+        "alias": "Module Temperature Abnormal",
+        "severity": "critical"
+      },
+      "12": {
+        "alias": "Reactor Temperature Abnormal",
+        "severity": "critical"
+      },
+      "13": {
+        "alias": "Power Frequency Transformer Temperature Abnormal",
+        "severity": "critical"
+      },
+      "14": {
+        "alias": "Reserved",
+        "severity": "info"
+      },
+      "15": {
+        "alias": "Circulating Water Temperature Abnormal",
+        "severity": "critical"
+      }
+    }
+  },
+  "60181": {
+    "name": "fault_word_2",
+    "alias": "fault_word_2",
+    "dataType": "int16",
+    "min": -32768,
+    "max": 32767,
+    "scaling": 1,
+    "unit": "",
+    "type": "alarm",
+    "fc": 3,
+    "srno": 1,
+    "register": 60181,
+    "word_swap": "big_endian",
+    "byte_swap": "big_endian",
+    "enable": true,
+    "alarmType": "bitwise",
+    "bitMap": {
+      "0": {
+        "alias": "Outlet Air Temperature Abnormal of Internal Heat Exchanger",
+        "severity": "critical"
+      },
+      "1": {
+        "alias": "Ambient Temperature Abnormal",
+        "severity": "critical"
+      },
+      "2": {
+        "alias": "Battery Overvoltage",
+        "severity": "critical"
+      },
+      "3": {
+        "alias": "Battery Undervoltage",
+        "severity": "critical"
+      },
+      "4": {
+        "alias": "Battery Polarity Reversed",
+        "severity": "critical"
+      },
+      "5": {
+        "alias": "DC Slow Start Timeout",
+        "severity": "critical"
+      },
+      "6": {
+        "alias": "AC Switch Closure Timeout",
+        "severity": "critical"
+      },
+      "7": {
+        "alias": "Grid Phase-Locked Loop (PLL) Fault",
+        "severity": "critical"
+      },
+      "8": {
+        "alias": "Carrier Synchronization Failure",
+        "severity": "critical"
+      },
+      "9": {
+        "alias": "FPGA Fault Trigger",
+        "severity": "critical"
+      },
+      "10": {
+        "alias": "Model Matching Fault",
+        "severity": "critical"
+      },
+      "11": {
+        "alias": "Parallel Communication Fault",
+        "severity": "critical"
+      },
+      "12": {
+        "alias": "HMI Communication Fault",
+        "severity": "critical"
+      },
+      "13": {
+        "alias": "BMS Communication Fault",
+        "severity": "critical"
+      },
+      "14": {
+        "alias": "EMS Communication Fault (61850_A Internal)",
+        "severity": "critical"
+      },
+      "15": {
+        "alias": "EMS Communication Fault (61850_A External)",
+        "severity": "critical"
+      }
+    }
+  },
+  "60182": {
+    "name": "fault_word_3",
+    "alias": "fault_word_3",
+    "dataType": "int16",
+    "min": -32768,
+    "max": 32767,
+    "scaling": 1,
+    "unit": "",
+    "type": "alarm",
+    "fc": 3,
+    "srno": 2,
+    "register": 60182,
+    "word_swap": "big_endian",
+    "byte_swap": "big_endian",
+    "enable": true,
+    "alarmType": "bitwise",
+    "bitMap": {
+      "0": {
+        "alias": "EMS Communication Fault (61850_B Internal)",
+        "severity": "critical"
+      },
+      "1": {
+        "alias": "EMS Communication Fault (61850_B External)",
+        "severity": "critical"
+      },
+      "2": {
+        "alias": "EEPROM Communication Fault",
+        "severity": "critical"
+      },
+      "3": {
+        "alias": "EMS Communication Fault",
+        "severity": "critical"
+      },
+      "4": {
+        "alias": "Residual Current Limit Exceeded",
+        "severity": "critical"
+      },
+      "5": {
+        "alias": "Reserved",
+        "severity": "info"
+      },
+      "6": {
+        "alias": "Reserved",
+        "severity": "info"
+      },
+      "7": {
+        "alias": "AC Fan Fault",
+        "severity": "critical"
+      },
+      "8": {
+        "alias": "DC Fan Fault",
+        "severity": "critical"
+      },
+      "9": {
+        "alias": "Voltage Abnormal on Auxiliary Power Supply",
+        "severity": "critical"
+      },
+      "10": {
+        "alias": "Water Pump Fault",
+        "severity": "critical"
+      },
+      "11": {
+        "alias": "Low Insulation Resistance",
+        "severity": "critical"
+      },
+      "12": {
+        "alias": "Insulation Resistance Detection Failure",
+        "severity": "critical"
+      },
+      "13": {
+        "alias": "Communication Failure of Insulation Resistance Detection Board",
+        "severity": "critical"
+      },
+      "14": {
+        "alias": "Ambient Humidity Abnormal",
+        "severity": "critical"
+      },
+      "15": {
+        "alias": "SPI Flash Fault",
+        "severity": "critical"
+      }
+    }
+  },
+  "60183": {
+    "name": "fault_word_4",
+    "alias": "fault_word_4",
+    "dataType": "int16",
+    "min": -32768,
+    "max": 32767,
+    "scaling": 1,
+    "unit": "",
+    "type": "alarm",
+    "fc": 3,
+    "srno": 3,
+    "register": 60183,
+    "word_swap": "big_endian",
+    "byte_swap": "big_endian",
+    "enable": true,
+    "alarmType": "bitwise",
+    "bitMap": {
+      "0": {
+        "alias": "SPD Fault",
+        "severity": "critical"
+      },
+      "1": {
+        "alias": "Reserved",
+        "severity": "info"
+      },
+      "2": {
+        "alias": "PCS E-Stop Fault",
+        "severity": "critical"
+      },
+      "3": {
+        "alias": "Transformer E-Stop Fault",
+        "severity": "critical"
+      },
+      "4": {
+        "alias": "BMS E-Stop Fault",
+        "severity": "critical"
+      },
+      "5": {
+        "alias": "Reserved",
+        "severity": "info"
+      },
+      "6": {
+        "alias": "Liquid Level Fault",
+        "severity": "critical"
+      },
+      "7": {
+        "alias": "Reserved",
+        "severity": "info"
+      },
+      "8": {
+        "alias": "Parallel CAN Fault",
+        "severity": "critical"
+      },
+      "9": {
+        "alias": "Current Inconsistent",
+        "severity": "critical"
+      },
+      "10": {
+        "alias": "Grid Undervoltage",
+        "severity": "critical"
+      },
+      "11": {
+        "alias": "Grid Frequency Abnormal",
+        "severity": "critical"
+      },
+      "12": {
+        "alias": "AC Voltage Imbalance",
+        "severity": "critical"
+      },
+      "13": {
+        "alias": "Grid Islanding Fault",
+        "severity": "critical"
+      },
+      "14": {
+        "alias": "Bus Software Overvoltage",
+        "severity": "critical"
+      },
+      "15": {
+        "alias": "Full Bus Undervoltage",
+        "severity": "critical"
+      }
+    }
+  },
+  "60184": {
+    "name": "fault_word_5",
+    "alias": "fault_word_5",
+    "dataType": "int16",
+    "min": -32768,
+    "max": 32767,
+    "scaling": 1,
+    "unit": "",
+    "type": "alarm",
+    "fc": 3,
+    "srno": 4,
+    "register": 60184,
+    "word_swap": "big_endian",
+    "byte_swap": "big_endian",
+    "enable": true,
+    "alarmType": "bitwise",
+    "bitMap": {
+      "0": {
+        "alias": "Bus Midpoint Voltage Imbalance",
+        "severity": "critical"
+      },
+      "1": {
+        "alias": "AC Current Imbalance",
+        "severity": "critical"
+      },
+      "2": {
+        "alias": "DC Component Limit Exceeded",
+        "severity": "critical"
+      },
+      "3": {
+        "alias": "DC Software Overcurrent",
+        "severity": "critical"
+      },
+      "4": {
+        "alias": "Grid Voltage Sampling Fault",
+        "severity": "critical"
+      },
+      "5": {
+        "alias": "Inverter Voltage Sampling Fault",
+        "severity": "critical"
+      },
+      "6": {
+        "alias": "Module Current Sampling Fault",
+        "severity": "critical"
+      },
+      "7": {
+        "alias": "Bus Current Sampling Fault",
+        "severity": "critical"
+      },
+      "8": {
+        "alias": "Battery Voltage Sampling Fault",
+        "severity": "critical"
+      },
+      "9": {
+        "alias": "Half-bus Voltage Sampling Fault",
+        "severity": "critical"
+      },
+      "10": {
+        "alias": "AC/DC Active Power Excessive Deviation",
+        "severity": "critical"
+      },
+      "11": {
+        "alias": "Control Command Tracking Abnormal",
+        "severity": "critical"
+      },
+      "12": {
+        "alias": "Grid Phase Sequence Fault",
+        "severity": "critical"
+      },
+      "13": {
+        "alias": "AC Instantaneous Overvoltage",
+        "severity": "critical"
+      },
+      "14": {
+        "alias": "Equipment Abnormal",
+        "severity": "critical"
+      },
+      "15": {
+        "alias": "Grid Resonance Fault",
+        "severity": "critical"
+      }
+    }
+  },
+  "60185": {
+    "name": "fault_word_6",
+    "alias": "fault_word_6",
+    "dataType": "int16",
+    "min": -32768,
+    "max": 32767,
+    "scaling": 1,
+    "unit": "",
+    "type": "alarm",
+    "fc": 3,
+    "srno": 5,
+    "register": 60185,
+    "word_swap": "big_endian",
+    "byte_swap": "big_endian",
+    "enable": true,
+    "alarmType": "bitwise",
+    "bitMap": {
+      "0": {
+        "alias": "Slave Fault",
+        "severity": "critical"
+      },
+      "1": {
+        "alias": "Module CBC Fault",
+        "severity": "critical"
+      },
+      "2": {
+        "alias": "Software Version Mismatch",
+        "severity": "critical"
+      },
+      "3": {
+        "alias": "O&M Alarm",
+        "severity": "critical"
+      },
+      "4": {
+        "alias": "Reserved",
+        "severity": "info"
+      },
+      "5": {
+        "alias": "Reserved",
+        "severity": "info"
+      },
+      "6": {
+        "alias": "Reserved",
+        "severity": "info"
+      },
+      "7": {
+        "alias": "Reserved",
+        "severity": "info"
+      },
+      "8": {
+        "alias": "Reserved",
+        "severity": "info"
+      },
+      "9": {
+        "alias": "Reserved",
+        "severity": "info"
+      },
+      "10": {
+        "alias": "Reserved",
+        "severity": "info"
+      },
+      "11": {
+        "alias": "Reserved",
+        "severity": "info"
+      },
+      "12": {
+        "alias": "Reserved",
+        "severity": "info"
+      },
+      "13": {
+        "alias": "Reserved",
+        "severity": "info"
+      },
+      "14": {
+        "alias": "Reserved",
+        "severity": "info"
+      },
+      "15": {
+        "alias": "Reserved",
+        "severity": "info"
+      }
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+    "Availability" : {
+        "alias" : "INV_Availability",
+        "deviceType" : "inverter",
+        "dataType" : "float",
+        "min" : 0,
+        "max" : 100,
+        "scaling" : 1,
+        "type" : "computed",
+        "unit" : "%"
+    },
+    "PR" : {
+        "alias" : "INV_PR",
+        "deviceType" : "inverter",
+        "dataType" : "float",
+        "min" : 0,
+        "max" : 100,
+        "scaling" : 1,
+        "type" : "computed",
+        "unit" : "%"
+    }
+}

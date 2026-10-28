@@ -1,0 +1,252 @@
+{
+    "SoC" : {
+        "resolution" : 59,
+        "aggregation": "last"
+    },
+    "Voltage" : {
+        "resolution" : 59,
+        "aggregation": "avg"
+    },
+    "Amps" : {
+        "resolution" : 59,
+        "aggregation": "avg"
+    },
+    "Reactive_Power_kVAR" : {
+        "resolution" : 59,
+        "aggregation": "avg"
+    },
+    "Frequency_Hz" : {
+        "resolution" : 59,
+        "aggregation": "avg"
+    },
+    "Control_State" : {
+        "resolution" : 59,
+        "aggregation": "last"
+    },
+    "SoC_Setpoint" : {
+        "resolution" : 59,
+        "aggregation": "last"
+    },
+    "soc_min_threshold" : {
+        "resolution" : 59,
+        "aggregation": "last"
+    },
+    "soc_max_threshold" : {
+        "resolution" : 59,
+        "aggregation": "last"
+    },
+    "SoC_Write" : {
+        "resolution" : 59,
+        "aggregation": "avg"
+    },
+    "Active_Power_kW" : {
+        "resolution" : 59,
+        "aggregation": "last"
+    },
+    "Charge_Energy_kWh" : {
+        "resolution" : 59,
+        "aggregation": "last"
+    },
+    "DoD" : {
+        "resolution" : 59,
+        "aggregation": "last"
+    },
+    "SoH" : {
+        "resolution" : 59,
+        "aggregation": "last"
+    },
+    "Temperature" : {
+        "resolution" : 59,
+        "aggregation": "last"
+    },
+    "Capacity_AH" : {
+        "resolution" : 59,
+        "aggregation": "last"
+    },
+    "state": {
+    "resolution": 59,
+    "aggregation": "last",
+    "change":"false"
+   },
+   "manual_alarm": { 
+    "resolution": 59, 
+    "aggregation": "last" , 
+    "change":"false"
+   },
+   "maximum_allowable_charging_power": {
+    "resolution": 59,
+    "aggregation": "last"
+   },
+   "maximum_allowable_discharging_power": {
+    "resolution": 59,
+    "aggregation": "last"
+   },
+   "maximum_allowable_charging_voltage": {
+    "resolution": 59,
+    "aggregation": "last"
+   },
+   "maximum_allowable_discharging_voltage": {
+    "resolution": 59,
+    "aggregation": "last"
+   },
+   "maximum_allowable_charging_current": {
+    "resolution": 59,
+    "aggregation": "last"
+   },
+   "maximum_allowable_discharging_current": {
+    "resolution": 59,
+    "aggregation": "last"
+   },
+   "input_1": {
+    "resolution": 59,
+    "aggregation": "last"
+   },
+   "input_2": {
+    "resolution": 59,
+    "aggregation": "last"
+   },
+   "input_3": {
+    "resolution": 59,
+    "aggregation": "last"
+   },
+   "input_4": {
+    "resolution": 59,
+    "aggregation": "last"
+   },
+   "input_5": {
+    "resolution": 59,
+    "aggregation": "last"
+   },
+   "input_6": {
+    "resolution": 59,
+    "aggregation": "last"
+   },
+   "input_7": {
+    "resolution": 59,
+    "aggregation": "last"
+   },
+   "input_8": {
+    "resolution": 59,
+    "aggregation": "last"
+   },
+   "total_voltage": {
+    "resolution": 59,
+    "aggregation": "last"
+   },
+   "current": {
+    "resolution": 59,
+    "aggregation": "last"
+   },
+   "module_temperature": {
+    "resolution": 59,
+    "aggregation": "last"
+   },
+   "soc": {
+    "resolution": 59,
+    "aggregation": "last"
+   },
+   "soh": {
+    "resolution": 59,
+    "aggregation": "last"
+   },
+   "insulation_resistance": {
+    "resolution": 59,
+    "aggregation": "last"
+   },
+   "average_cell_voltage": {
+    "resolution": 59,
+    "aggregation": "last"
+   },
+   "average_cell_temperature": {
+    "resolution": 59,
+    "aggregation": "last"
+   },
+   "maximum_cell_voltage": {
+    "resolution": 59,
+    "aggregation": "last"
+   },
+   "maximum_cell_voltage_point_no": {
+    "resolution": 59,
+    "aggregation": "last"
+   },
+   "minimum_cell_voltage": {
+    "resolution": 59,
+    "aggregation": "last"
+   },
+   "minimum_cell_voltage_point_no": {
+    "resolution": 59,
+    "aggregation": "last"
+   },
+   "maximum_cell_temperature": {
+    "resolution": 59,
+    "aggregation": "last"
+   },
+   "maximum_cell_temperature_point_no": {
+    "resolution": 59,
+    "aggregation": "last"
+   },
+   "minimum_cell_temperature": {
+    "resolution": 59,
+    "aggregation": "last"
+   },
+   "minimum_cell_temperature_point_no": {
+    "resolution": 59,
+    "aggregation": "last"
+   },
+   "maximum_cell_soc": {
+    "resolution": 59,
+    "aggregation": "last"
+   },
+   "maximum_cell_soc_point_no": {
+    "resolution": 59,
+    "aggregation": "last"
+   },
+   "minimum_cell_soc": {
+    "resolution": 59,
+    "aggregation": "last"
+   },
+   "minimum_cell_soc_point_no": {
+    "resolution": 59,
+    "aggregation": "last"
+   },
+   "maximum_cell_soh": {
+    "resolution": 59,
+    "aggregation": "last"
+   },
+   "maximum_cell_soh_point_no": {
+    "resolution": 59,
+    "aggregation": "last"
+   },
+   "minimum_cell_soh": {
+    "resolution": 59,
+    "aggregation": "last"
+   },
+   "minimum_cell_soh_point_no": {
+    "resolution": 59,
+    "aggregation": "last"
+   },
+   "accumulated_charging_capacity": {
+    "resolution": 59,
+    "aggregation": "last"
+   },
+   "accumulated_discharging_capacity": {
+    "resolution": 59,
+    "aggregation": "last"
+   },
+   "accumulated_charge_quantity_single_time": {
+    "resolution": 59,
+    "aggregation": "last"
+   },
+   "accumulated_discharge_quantity_single_time": {
+    "resolution": 59,
+    "aggregation": "last"
+   },
+   "rechargeable_capacity": {
+    "resolution": 59,
+    "aggregation": "last"
+   },
+   "discharge_capacity": {
+    "resolution": 59,
+    "aggregation": "last"
+   }
+}

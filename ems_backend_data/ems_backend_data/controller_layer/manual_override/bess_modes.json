@@ -1,0 +1,98 @@
+{
+    "reactive_power_setting_disabled": {
+        "name": "reactive_power_setting_disabled",
+        "active": false,
+        "control_state": "remote",
+        "pcs_device_id": []
+    },
+    "reactive_power_setting": {
+        "name": "reactive_power_setting",
+        "active": false,
+        "control_state": "remote",
+        "pcs_device_id": []
+    },
+    "power_factor_setting": {
+        "name": "power_factor_setting",
+        "active": false,
+        "control_state": "remote",
+        "pcs_device_id": []
+    },
+    "pq": {
+        "name": "pq",
+        "active": true,
+        "control_state": "remote",
+        "pcs_device_id": []
+    },
+    "vf_mode": {
+        "name": "vf_mode",
+        "active": false,
+        "control_state": "remote",
+        "pcs_device_id": []
+    },
+    "vsg_mode": {
+        "name": "vsg_mode",
+        "active": false,
+        "control_state": "remote",
+        "pcs_device_id": []
+    },
+    "dc_source_mode": {
+        "name": "dc_source_mode",
+        "active": false,
+        "control_state": "remote",
+        "pcs_device_id": []
+    },
+    "ac_constant_power_mode": {
+        "name": "ac_constant_power_mode",
+        "active": false,
+        "control_state": "remote",
+        "pcs_device_id": []
+    },
+    "dc_constant_power_mode": {
+        "name": "dc_constant_power_mode",
+        "active": false,
+        "control_state": "remote",
+        "pcs_device_id": []
+    },
+    "dc_constant_current_mode": {
+        "name": "dc_constant_current_mode",
+        "active": false,
+        "control_state": "remote",
+        "pcs_device_id": []
+    },
+    "ramp": {
+        "name": "ramp",
+        "active": false,
+        "control_state": "remote",
+        "pcs_device_id": []
+    },
+    "cosphi": {
+        "name": "cosphi",
+        "active": false,
+        "control_state": "remote",
+        "pcs_device_id": []
+    },
+    "v_droop": {
+        "name": "v_droop",
+        "active": false,
+        "control_state": "remote",
+        "pcs_device_id": []
+    },
+    "frt": {
+        "name": "frt",
+        "active": false,
+        "control_state": "remote",
+        "pcs_device_id": []
+    },
+    "p": {
+        "name": "p",
+        "active": false,
+        "control_state": "remote",
+        "pcs_device_id": []
+    },
+    "q": {
+        "name": "q",
+        "active": false,
+        "control_state": "remote",
+        "pcs_device_id": []
+    }
+}
