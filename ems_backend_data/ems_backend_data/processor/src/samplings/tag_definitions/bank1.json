@@ -1,0 +1,620 @@
+{
+    "SoC": {
+        "resolution": 59,
+        "aggregation": "last"
+    },
+    "Voltage": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "Amps": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "Reactive_Power_kVAR": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "Frequency_Hz": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "Control_State": {
+        "resolution": 59,
+        "aggregation": "last"
+    },
+    "SoC_Setpoint": {
+        "resolution": 59,
+        "aggregation": "last"
+    },
+    "soc_min_threshold": {
+        "resolution": 59,
+        "aggregation": "last"
+    },
+    "soc_max_threshold": {
+        "resolution": 59,
+        "aggregation": "last"
+    },
+    "SoC_Write": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "Active_Power_kW": {
+        "resolution": 59,
+        "aggregation": "last"
+    },
+    "Charge_Energy_kWh": {
+        "resolution": 59,
+        "aggregation": "last"
+    },
+    "DoD": {
+        "resolution": 59,
+        "aggregation": "last"
+    },
+    "SoH": {
+        "resolution": 59,
+        "aggregation": "last"
+    },
+    "Temperature": {
+        "resolution": 59,
+        "aggregation": "last"
+    },
+    "Capacity_AH": {
+        "resolution": 59,
+        "aggregation": "last"
+    },
+    "Container_status_1": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "Container_status_2": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "Container_status_3": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "Battery_cabin_temperature_1": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "Battery_cabin_temperature_2": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "Battery_cabin_temperature_3": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "Battery_cabin_temperature_4": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    " Battery_cabin_humidity_1": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "Battery_cabin_humidity_2": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "Battery_cabin_humidity_3": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "Battery_cabin_humidity_4": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "Control_unit_cabin_temperature_1": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "Control_unit_cabin_humidity_1": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "Control_unit_cabin_dew_point_temperature": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "Battery_cabin_dew_point_temperature": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "SOC": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "Energy_charged_today": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "Energy_discharged_today": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "Energy_charged_this_month": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "Energy_discharged_this_month": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "Energy_charged_this_year": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "Energy_discharged_this_year": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "Total_auxiliary_power_consumption": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "Charge_Discharge_power": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "Rated_capacity": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "Rated_power": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "Chargeable_capacity": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "Dischargeable_capacity": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "Total_energy_charged": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "Total_energy_discharged": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "CO_concentration_1": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "CO_concentration_2": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "CO_concentration_3": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "CO_concentration_4": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "CO_concentration_5": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "CO_concentration_6": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    " H2_concentration_1": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "Alarm_1": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "Alarm_2": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "Fan_speed_1": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "Fan_speed_2": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "Fan_speed_3": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "Fan_speed_4": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "Fan_speed_5": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "Fan_speed_6": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "Fan_speed_7": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "Fan_speed_8": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "Fan_speed_9": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "Fan_speed_10": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "Fan_speed_11": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "Fan_speed_12": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "DC_bus_voltage": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "DC_bus_current": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "Phase_A_voltage": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "Phase_B_voltage": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "Phase_C_voltage": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "Phase_A_active_power": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "Phase_B_active_power": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "Phase_C_active_power": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "Active_power": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "Reactive_power": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "Power_factor": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "Total_output_voltage_of_rectifiers": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "Total_output_current_of_rectifiers": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "Quantity_of_rectifiers": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "Total_output_power_of_rectifiers": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "BCU_1_Quantity_of_working_packs": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "BCU_1_Device_status": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "BCU_1_Rack_voltage": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    " BCU_1_Rack_current": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "BCU_1_SOC": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "BCU_1_SOH": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "BCU_1_Charge_Discharge_power": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "BCU_1_SOE": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "BCU_1_DOD": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "BCU_1_Chargeable_capacity": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "BCU_1_Dischargeable_capacity": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "BCU_1_Highest_pack_temperature": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    " BCU_1_Pack_with_highest_temperature": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "BCU_1_Lowest_pack_temperature": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "BCU_1_Pack_with_lowest_temperature": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "BCU_1_Lowest_pack_voltage": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "BCU_1_Pack_with_lowest_voltage": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "BCU_1_Highest_pack_voltage": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "BCU_1_Pack_with_highest_voltage": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "BCU_1_Energy_charged_today": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "BCU_1_Energy_charged_this_month": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "BCU_1_Energy_charged_this_year": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "BCU_1_Energy_discharged_today": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "BCU_1_Energy_discharged_this_month": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "BCU_1_Energy_discharged_this_year": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "BCU_2_Quantity_of_working_packs": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "BCU_2_Device_status": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "BCU_2_Rack_voltage": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "BCU_2_Rack_current": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "BCU_2_SOC": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "BCU_2_SOH": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "BCU_2_SOE": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "BCU_2_DOD": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "BCU_2_Chargeable_capacity": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "BCU_2_Dischargeable_capacity": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "BCU_2_Chargeable_power": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "BCU_2_Dischargeable_power": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "BCU_2_Highest_pack_temperature": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "BCU_2_Pack_with_highest_temperature": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "BCU_2_Lowest_pack_temperature": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "BCU_2_Pack_with_Lowest_temperature": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "BCU_2_Lowest_pack_voltage": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "BCU_2_Pack_with_lowest_voltage": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "BCU_2_Highest_pack_voltage": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "BCU_2_Pack_with_highest_voltage": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "BCU_2_Energy_charged_today": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "BCU_2_Energy_charged_this_month": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "BCU_2_Energy_charged_this_year": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "BCU_2_Energy_discharged_today": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "BCU_2_Energy_discharged_this_month": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "BCU_2_Energy_discharged_this_year": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "DCDC_Cabinet_temperature": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "DCDC1_ISO_insulation_resistance": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "DCDC1_Battery_side_voltage": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "DCDC1_Bus_side_voltage": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "DCDC1_Bus_side_current": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "DCDC1_Battery_side_current": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "DCDC2_ISO_insulation_resistance": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "DCDC2_Battery_side_voltage": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "DCDC2_Bus_side_voltage": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "DCDC2_Bus_side_current": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "DCDC2_Battery_side_current": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "DCDC1_Running_status": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "DCDC2_Running_status": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "Teleindication_alarm_1": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "Teleindication_alarm_2": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "Teleindication_alarm_3": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "Teleindication_alarm_4": {
+        "resolution": 59,
+        "aggregation": "avg"
+    },
+    "hoymilesbank_system_state":{ 
+        "resolution": 59, 
+        "aggregation": "last" 
+    },
+    "charge_discharge_state": { 
+        "resolution": 59, 
+        "aggregation": "last" 
+    },
+     "pcs_bms_communication_failure": {
+        "change": true,
+        "is_debounce": true,
+        "debounce_time": 4
+    },
+    "ems_bms_communication_failure": {
+        "change": true,
+        "is_debounce": true,
+        "debounce_time": 4
+    }
+}

@@ -1,0 +1,1164 @@
+{
+    "run_state_branch_1": {
+        "mapping": {
+            "0": {"state": "Fault Shutdown", "severity": "critical"},
+            "1": {"state": "Normal Shutdown", "severity": "normal"},
+            "2": {"state": "Standby", "severity": "normal"},
+            "3": {"state": "Discharge Operation", "severity": "normal"},
+            "4": {"state": "Charge Operation", "severity": "normal"},
+            "5": {"state": "Zero-Power Operation", "severity": "info"}
+        }
+    },
+    "run_state_branch_2": {
+        "mapping": {
+            "0": {"state": "Fault Shutdown", "severity": "critical"},
+            "1": {"state": "Normal Shutdown", "severity": "normal"},
+            "2": {"state": "Standby", "severity": "normal"},
+            "3": {"state": "Discharge Operation", "severity": "normal"},
+            "4": {"state": "Charge Operation", "severity": "normal"},
+            "5": {"state": "Zero-Power Operation", "severity": "info"}
+        }
+    },
+    "pll_completion_flag": {
+        "mapping": {
+            "0": {"state": "Not Completed", "severity": "info"},
+            "1": {"state": "Completed", "severity": "info"}
+        }
+    },
+    "overload_derate_flag": {
+        "mapping": {
+            "0": {"state": "No Derating", "severity": "normal"},
+            "1": {"state": "Derating", "severity": "warning"}
+        }
+    },
+    "bms_estop_status": {
+        "mapping": {
+            "0": {"state": "Not Active", "severity": "normal"},
+            "1": {"state": "Active", "severity": "critical"}
+        }
+    },
+    "xfmr_box_estop_status": {
+        "mapping": {
+            "0": {"state": "Not Active", "severity": "normal"},
+            "1": {"state": "Active", "severity": "critical"}
+        }
+    },
+    "reactor_temp_ctrl_fb_1": {
+        "mapping": {
+            "0": {"state": "Normal", "severity": "normal"},
+            "1": {"state": "Overtemperature", "severity": "critical"}
+        }
+    },
+    "reactor_temp_ctrl_fb_2": {
+        "mapping": {
+            "0": {"state": "Normal", "severity": "normal"},
+            "1": {"state": "Overtemperature", "severity": "critical"}
+        }
+    },
+    "main_fan_status_1": {
+        "mapping": {
+            "0": {"state": "Normal", "severity": "normal"},
+            "1": {"state": "Fault", "severity": "critical"}
+        }
+    },
+    "main_fan_status_2": {
+        "mapping": {
+            "0": {"state": "Normal", "severity": "normal"},
+            "1": {"state": "Fault", "severity": "critical"}
+        }
+    },
+    "dc_spd_status_2": {
+        "mapping": {
+            "0": {"state": "Normal", "severity": "normal"},
+            "1": {"state": "Fault", "severity": "critical"}
+        }
+    },
+    "dc_spd_status_1": {
+        "mapping": {
+            "0": {"state": "Normal", "severity": "normal"},
+            "1": {"state": "Fault", "severity": "critical"}
+        }
+    },
+    "ac_spd_status": {
+        "mapping": {
+            "0": {"state": "Normal", "severity": "normal"},
+            "1": {"state": "Fault", "severity": "critical"}
+        }
+    },
+    "dc_switch_status_2": {
+        "mapping": {
+            "0": {"state": "Off", "severity": "info"},
+            "1": {"state": "On", "severity": "info"}
+        }
+    },
+    "coolant_level_fb": {
+        "mapping": {
+            "0": {"state": "Normal", "severity": "normal"},
+            "1": {"state": "Abnormal", "severity": "warning"}
+        }
+    },
+    "e_stop_button_status": {
+        "mapping": {
+            "0": {"state": "Off", "severity": "normal"},
+            "1": {"state": "On", "severity": "critical"}
+        }
+    },
+    "ac_switch_status": {
+        "mapping": {
+            "0": {"state": "Off", "severity": "info"},
+            "1": {"state": "On", "severity": "info"}
+        }
+    },
+    "dc_switch_status_1": {
+        "mapping": {
+            "0": {"state": "Off", "severity": "info"},
+            "1": {"state": "On", "severity": "info"}
+        }
+    },
+    "remote_e_stop_status": {
+        "mapping": {
+            "0": {"state": "Off", "severity": "normal"},
+            "1": {"state": "On", "severity": "critical"}
+        }
+    },
+    "pcs_fault_status": {
+        "mapping": {
+            "0": {"state": "Normal", "severity": "normal"},
+            "1": {"state": "Fault", "severity": "critical"}
+        }
+    },
+    "pcs_alarm_status": {
+        "mapping": {
+            "0": {"state": "Normal", "severity": "normal"},
+            "1": {"state": "Alarm", "severity": "warning"}
+        }
+    },
+    "water_pump_status_fb_1": {
+        "mapping": {
+            "0": {"state": "Stop", "severity": "info"},
+            "1": {"state": "Run", "severity": "info"}
+        }
+    },
+    "water_pump_status_fb_2": {
+        "mapping": {
+            "0": {"state": "Stop", "severity": "info"},
+            "1": {"state": "Run", "severity": "info"}
+        }
+    },
+    "bank_state": {
+        "mapping": {
+            "0": {
+                "state": "initial state",
+                "severity": "info"
+            },
+            "1": {
+                "state": "charging",
+                "severity": "info"
+            },
+            "2": {
+                "state": "discharging",
+                "severity": "info"
+            },
+            "3": {
+                "state": "ready",
+                "severity": "info"
+            },
+            "4": {
+                "state": "cluster maintenance",
+                "severity": "info"
+            },
+            "5": {
+                "state": "charge prohibition",
+                "severity": "info"
+            },
+            "6": {
+                "state": "discharge prohibition",
+                "severity": "info"
+            },
+            "7": {
+                "state": "charging and discharging prohibited",
+                "severity": "info"
+            },
+            "8": {
+                "state": "fault",
+                "severity": "critical"
+            },
+            "9": {
+                "state": "fault recovery",
+                "severity": "critical"
+            },
+            "10": {
+                "state": "test mode",
+                "severity": "info"
+            },
+            "11": {
+                "state": "power-off",
+                "severity": "info"
+            },
+            "12": {
+                "state": "power-off completed",
+                "severity": "info"
+            }
+        }
+    },
+    "str1_state": {
+        "mapping": {
+            "0": {
+                "state": "initial state",
+                "severity": "info"
+            },
+            "1": {
+                "state": "charging",
+                "severity": "info"
+            },
+            "2": {
+                "state": "discharging",
+                "severity": "info"
+            },
+            "3": {
+                "state": "ready",
+                "severity": "info"
+            },
+            "4": {
+                "state": "cluster maintenance",
+                "severity": "info"
+            },
+            "5": {
+                "state": "charge prohibition",
+                "severity": "info"
+            },
+            "6": {
+                "state": "discharge prohibition",
+                "severity": "info"
+            },
+            "7": {
+                "state": "charging and discharging prohibited",
+                "severity": "info"
+            },
+            "8": {
+                "state": "fault",
+                "severity": "critical"
+            },
+            "9": {
+                "state": "fault recovery",
+                "severity": "critical"
+            },
+            "10": {
+                "state": "test mode",
+                "severity": "info"
+            }
+        }
+    },
+    "str2_state": {
+        "mapping": {
+            "0": {
+                "state": "initial state",
+                "severity": "info"
+            },
+            "1": {
+                "state": "charging",
+                "severity": "info"
+            },
+            "2": {
+                "state": "discharging",
+                "severity": "info"
+            },
+            "3": {
+                "state": "ready",
+                "severity": "info"
+            },
+            "4": {
+                "state": "cluster maintenance",
+                "severity": "info"
+            },
+            "5": {
+                "state": "charge prohibition",
+                "severity": "info"
+            },
+            "6": {
+                "state": "discharge prohibition",
+                "severity": "info"
+            },
+            "7": {
+                "state": "charging and discharging prohibited",
+                "severity": "info"
+            },
+            "8": {
+                "state": "fault",
+                "severity": "critical"
+            },
+            "9": {
+                "state": "fault recovery",
+                "severity": "critical"
+            },
+            "10": {
+                "state": "test mode",
+                "severity": "info"
+            }
+        }
+    },
+    "str3_state": {
+        "mapping": {
+            "0": {
+                "state": "initial state",
+                "severity": "info"
+            },
+            "1": {
+                "state": "charging",
+                "severity": "info"
+            },
+            "2": {
+                "state": "discharging",
+                "severity": "info"
+            },
+            "3": {
+                "state": "ready",
+                "severity": "info"
+            },
+            "4": {
+                "state": "cluster maintenance",
+                "severity": "info"
+            },
+            "5": {
+                "state": "charge prohibition",
+                "severity": "info"
+            },
+            "6": {
+                "state": "discharge prohibition",
+                "severity": "info"
+            },
+            "7": {
+                "state": "charging and discharging prohibited",
+                "severity": "info"
+            },
+            "8": {
+                "state": "fault",
+                "severity": "critical"
+            },
+            "9": {
+                "state": "fault recovery",
+                "severity": "critical"
+            },
+            "10": {
+                "state": "test mode",
+                "severity": "info"
+            }
+        }
+    },
+    "str4_state": {
+        "mapping": {
+            "0": {
+                "state": "initial state",
+                "severity": "info"
+            },
+            "1": {
+                "state": "charging",
+                "severity": "info"
+            },
+            "2": {
+                "state": "discharging",
+                "severity": "info"
+            },
+            "3": {
+                "state": "ready",
+                "severity": "info"
+            },
+            "4": {
+                "state": "cluster maintenance",
+                "severity": "info"
+            },
+            "5": {
+                "state": "charge prohibition",
+                "severity": "info"
+            },
+            "6": {
+                "state": "discharge prohibition",
+                "severity": "info"
+            },
+            "7": {
+                "state": "charging and discharging prohibited",
+                "severity": "info"
+            },
+            "8": {
+                "state": "fault",
+                "severity": "critical"
+            },
+            "9": {
+                "state": "fault recovery",
+                "severity": "critical"
+            },
+            "10": {
+                "state": "test mode",
+                "severity": "info"
+            }
+        }
+    },
+    "str5_state": {
+        "mapping": {
+            "0": {
+                "state": "initial state",
+                "severity": "info"
+            },
+            "1": {
+                "state": "charging",
+                "severity": "info"
+            },
+            "2": {
+                "state": "discharging",
+                "severity": "info"
+            },
+            "3": {
+                "state": "ready",
+                "severity": "info"
+            },
+            "4": {
+                "state": "cluster maintenance",
+                "severity": "info"
+            },
+            "5": {
+                "state": "charge prohibition",
+                "severity": "info"
+            },
+            "6": {
+                "state": "discharge prohibition",
+                "severity": "info"
+            },
+            "7": {
+                "state": "charging and discharging prohibited",
+                "severity": "info"
+            },
+            "8": {
+                "state": "fault",
+                "severity": "critical"
+            },
+            "9": {
+                "state": "fault recovery",
+                "severity": "critical"
+            },
+            "10": {
+                "state": "test mode",
+                "severity": "info"
+            }
+        }
+    },
+    "str6_state": {
+        "mapping": {
+            "0": {
+                "state": "initial state",
+                "severity": "info"
+            },
+            "1": {
+                "state": "charging",
+                "severity": "info"
+            },
+            "2": {
+                "state": "discharging",
+                "severity": "info"
+            },
+            "3": {
+                "state": "ready",
+                "severity": "info"
+            },
+            "4": {
+                "state": "cluster maintenance",
+                "severity": "info"
+            },
+            "5": {
+                "state": "charge prohibition",
+                "severity": "info"
+            },
+            "6": {
+                "state": "discharge prohibition",
+                "severity": "info"
+            },
+            "7": {
+                "state": "charging and discharging prohibited",
+                "severity": "info"
+            },
+            "8": {
+                "state": "fault",
+                "severity": "critical"
+            },
+            "9": {
+                "state": "fault recovery",
+                "severity": "critical"
+            },
+            "10": {
+                "state": "test mode",
+                "severity": "info"
+            }
+        }
+    },
+    "str7_state": {
+        "mapping": {
+            "0": {
+                "state": "initial state",
+                "severity": "info"
+            },
+            "1": {
+                "state": "charging",
+                "severity": "info"
+            },
+            "2": {
+                "state": "discharging",
+                "severity": "info"
+            },
+            "3": {
+                "state": "ready",
+                "severity": "info"
+            },
+            "4": {
+                "state": "cluster maintenance",
+                "severity": "info"
+            },
+            "5": {
+                "state": "charge prohibition",
+                "severity": "info"
+            },
+            "6": {
+                "state": "discharge prohibition",
+                "severity": "info"
+            },
+            "7": {
+                "state": "charging and discharging prohibited",
+                "severity": "info"
+            },
+            "8": {
+                "state": "fault",
+                "severity": "critical"
+            },
+            "9": {
+                "state": "fault recovery",
+                "severity": "critical"
+            },
+            "10": {
+                "state": "test mode",
+                "severity": "info"
+            }
+        }
+    },
+    "str8_state": {
+        "mapping": {
+            "0": {
+                "state": "initial state",
+                "severity": "info"
+            },
+            "1": {
+                "state": "charging",
+                "severity": "info"
+            },
+            "2": {
+                "state": "discharging",
+                "severity": "info"
+            },
+            "3": {
+                "state": "ready",
+                "severity": "info"
+            },
+            "4": {
+                "state": "cluster maintenance",
+                "severity": "info"
+            },
+            "5": {
+                "state": "charge prohibition",
+                "severity": "info"
+            },
+            "6": {
+                "state": "discharge prohibition",
+                "severity": "info"
+            },
+            "7": {
+                "state": "charging and discharging prohibited",
+                "severity": "info"
+            },
+            "8": {
+                "state": "fault",
+                "severity": "critical"
+            },
+            "9": {
+                "state": "fault recovery",
+                "severity": "critical"
+            },
+            "10": {
+                "state": "test mode",
+                "severity": "info"
+            }
+        }
+    },
+    "str9_state": {
+        "mapping": {
+            "0": {
+                "state": "initial state",
+                "severity": "info"
+            },
+            "1": {
+                "state": "charging",
+                "severity": "info"
+            },
+            "2": {
+                "state": "discharging",
+                "severity": "info"
+            },
+            "3": {
+                "state": "ready",
+                "severity": "info"
+            },
+            "4": {
+                "state": "cluster maintenance",
+                "severity": "info"
+            },
+            "5": {
+                "state": "charge prohibition",
+                "severity": "info"
+            },
+            "6": {
+                "state": "discharge prohibition",
+                "severity": "info"
+            },
+            "7": {
+                "state": "charging and discharging prohibited",
+                "severity": "info"
+            },
+            "8": {
+                "state": "fault",
+                "severity": "critical"
+            },
+            "9": {
+                "state": "fault recovery",
+                "severity": "critical"
+            },
+            "10": {
+                "state": "test mode",
+                "severity": "info"
+            }
+        }
+    },
+    "str10_state": {
+        "mapping": {
+            "0": {
+                "state": "initial state",
+                "severity": "info"
+            },
+            "1": {
+                "state": "charging",
+                "severity": "info"
+            },
+            "2": {
+                "state": "discharging",
+                "severity": "info"
+            },
+            "3": {
+                "state": "ready",
+                "severity": "info"
+            },
+            "4": {
+                "state": "cluster maintenance",
+                "severity": "info"
+            },
+            "5": {
+                "state": "charge prohibition",
+                "severity": "info"
+            },
+            "6": {
+                "state": "discharge prohibition",
+                "severity": "info"
+            },
+            "7": {
+                "state": "charging and discharging prohibited",
+                "severity": "info"
+            },
+            "8": {
+                "state": "fault",
+                "severity": "critical"
+            },
+            "9": {
+                "state": "fault recovery",
+                "severity": "critical"
+            },
+            "10": {
+                "state": "test mode",
+                "severity": "info"
+            }
+        }
+    },
+    "str11_state": {
+        "mapping": {
+            "0": {
+                "state": "initial state",
+                "severity": "info"
+            },
+            "1": {
+                "state": "charging",
+                "severity": "info"
+            },
+            "2": {
+                "state": "discharging",
+                "severity": "info"
+            },
+            "3": {
+                "state": "ready",
+                "severity": "info"
+            },
+            "4": {
+                "state": "cluster maintenance",
+                "severity": "info"
+            },
+            "5": {
+                "state": "charge prohibition",
+                "severity": "info"
+            },
+            "6": {
+                "state": "discharge prohibition",
+                "severity": "info"
+            },
+            "7": {
+                "state": "charging and discharging prohibited",
+                "severity": "info"
+            },
+            "8": {
+                "state": "fault",
+                "severity": "critical"
+            },
+            "9": {
+                "state": "fault recovery",
+                "severity": "critical"
+            },
+            "10": {
+                "state": "test mode",
+                "severity": "info"
+            }
+        }
+    },
+    "str12_state": {
+        "mapping": {
+            "0": {
+                "state": "initial state",
+                "severity": "info"
+            },
+            "1": {
+                "state": "charging",
+                "severity": "info"
+            },
+            "2": {
+                "state": "discharging",
+                "severity": "info"
+            },
+            "3": {
+                "state": "ready",
+                "severity": "info"
+            },
+            "4": {
+                "state": "cluster maintenance",
+                "severity": "info"
+            },
+            "5": {
+                "state": "charge prohibition",
+                "severity": "info"
+            },
+            "6": {
+                "state": "discharge prohibition",
+                "severity": "info"
+            },
+            "7": {
+                "state": "charging and discharging prohibited",
+                "severity": "info"
+            },
+            "8": {
+                "state": "fault",
+                "severity": "critical"
+            },
+            "9": {
+                "state": "fault recovery",
+                "severity": "critical"
+            },
+            "10": {
+                "state": "test mode",
+                "severity": "info"
+            }
+        }
+    },
+    "str13_state": {
+        "mapping": {
+            "0": {
+                "state": "initial state",
+                "severity": "info"
+            },
+            "1": {
+                "state": "charging",
+                "severity": "info"
+            },
+            "2": {
+                "state": "discharging",
+                "severity": "info"
+            },
+            "3": {
+                "state": "ready",
+                "severity": "info"
+            },
+            "4": {
+                "state": "cluster maintenance",
+                "severity": "info"
+            },
+            "5": {
+                "state": "charge prohibition",
+                "severity": "info"
+            },
+            "6": {
+                "state": "discharge prohibition",
+                "severity": "info"
+            },
+            "7": {
+                "state": "charging and discharging prohibited",
+                "severity": "info"
+            },
+            "8": {
+                "state": "fault",
+                "severity": "critical"
+            },
+            "9": {
+                "state": "fault recovery",
+                "severity": "critical"
+            },
+            "10": {
+                "state": "test mode",
+                "severity": "info"
+            }
+        }
+    },
+    "str14_state": {
+        "mapping": {
+            "0": {
+                "state": "initial state",
+                "severity": "info"
+            },
+            "1": {
+                "state": "charging",
+                "severity": "info"
+            },
+            "2": {
+                "state": "discharging",
+                "severity": "info"
+            },
+            "3": {
+                "state": "ready",
+                "severity": "info"
+            },
+            "4": {
+                "state": "cluster maintenance",
+                "severity": "info"
+            },
+            "5": {
+                "state": "charge prohibition",
+                "severity": "info"
+            },
+            "6": {
+                "state": "discharge prohibition",
+                "severity": "info"
+            },
+            "7": {
+                "state": "charging and discharging prohibited",
+                "severity": "info"
+            },
+            "8": {
+                "state": "fault",
+                "severity": "critical"
+            },
+            "9": {
+                "state": "fault recovery",
+                "severity": "critical"
+            },
+            "10": {
+                "state": "test mode",
+                "severity": "info"
+            }
+        }
+    },
+    "str15_state": {
+        "mapping": {
+            "0": {
+                "state": "initial state",
+                "severity": "info"
+            },
+            "1": {
+                "state": "charging",
+                "severity": "info"
+            },
+            "2": {
+                "state": "discharging",
+                "severity": "info"
+            },
+            "3": {
+                "state": "ready",
+                "severity": "info"
+            },
+            "4": {
+                "state": "cluster maintenance",
+                "severity": "info"
+            },
+            "5": {
+                "state": "charge prohibition",
+                "severity": "info"
+            },
+            "6": {
+                "state": "discharge prohibition",
+                "severity": "info"
+            },
+            "7": {
+                "state": "charging and discharging prohibited",
+                "severity": "info"
+            },
+            "8": {
+                "state": "fault",
+                "severity": "critical"
+            },
+            "9": {
+                "state": "fault recovery",
+                "severity": "critical"
+            },
+            "10": {
+                "state": "test mode",
+                "severity": "info"
+            }
+        }
+    },
+    "str16_state": {
+        "mapping": {
+            "0": {
+                "state": "initial state",
+                "severity": "info"
+            },
+            "1": {
+                "state": "charging",
+                "severity": "info"
+            },
+            "2": {
+                "state": "discharging",
+                "severity": "info"
+            },
+            "3": {
+                "state": "ready",
+                "severity": "info"
+            },
+            "4": {
+                "state": "cluster maintenance",
+                "severity": "info"
+            },
+            "5": {
+                "state": "charge prohibition",
+                "severity": "info"
+            },
+            "6": {
+                "state": "discharge prohibition",
+                "severity": "info"
+            },
+            "7": {
+                "state": "charging and discharging prohibited",
+                "severity": "info"
+            },
+            "8": {
+                "state": "fault",
+                "severity": "critical"
+            },
+            "9": {
+                "state": "fault recovery",
+                "severity": "critical"
+            },
+            "10": {
+                "state": "test mode",
+                "severity": "info"
+            }
+        }
+    },
+    "str17_state": {
+        "mapping": {
+            "0": {
+                "state": "initial state",
+                "severity": "info"
+            },
+            "1": {
+                "state": "charging",
+                "severity": "info"
+            },
+            "2": {
+                "state": "discharging",
+                "severity": "info"
+            },
+            "3": {
+                "state": "ready",
+                "severity": "info"
+            },
+            "4": {
+                "state": "cluster maintenance",
+                "severity": "info"
+            },
+            "5": {
+                "state": "charge prohibition",
+                "severity": "info"
+            },
+            "6": {
+                "state": "discharge prohibition",
+                "severity": "info"
+            },
+            "7": {
+                "state": "charging and discharging prohibited",
+                "severity": "info"
+            },
+            "8": {
+                "state": "fault",
+                "severity": "critical"
+            },
+            "9": {
+                "state": "fault recovery",
+                "severity": "critical"
+            },
+            "10": {
+                "state": "test mode",
+                "severity": "info"
+            }
+        }
+    },
+    "str18_state": {
+        "mapping": {
+            "0": {
+                "state": "initial state",
+                "severity": "info"
+            },
+            "1": {
+                "state": "charging",
+                "severity": "info"
+            },
+            "2": {
+                "state": "discharging",
+                "severity": "info"
+            },
+            "3": {
+                "state": "ready",
+                "severity": "info"
+            },
+            "4": {
+                "state": "cluster maintenance",
+                "severity": "info"
+            },
+            "5": {
+                "state": "charge prohibition",
+                "severity": "info"
+            },
+            "6": {
+                "state": "discharge prohibition",
+                "severity": "info"
+            },
+            "7": {
+                "state": "charging and discharging prohibited",
+                "severity": "info"
+            },
+            "8": {
+                "state": "fault",
+                "severity": "critical"
+            },
+            "9": {
+                "state": "fault recovery",
+                "severity": "critical"
+            },
+            "10": {
+                "state": "test mode",
+                "severity": "info"
+            }
+        }
+    },
+    "str19_state": {
+        "mapping": {
+            "0": {
+                "state": "initial state",
+                "severity": "info"
+            },
+            "1": {
+                "state": "charging",
+                "severity": "info"
+            },
+            "2": {
+                "state": "discharging",
+                "severity": "info"
+            },
+            "3": {
+                "state": "ready",
+                "severity": "info"
+            },
+            "4": {
+                "state": "cluster maintenance",
+                "severity": "info"
+            },
+            "5": {
+                "state": "charge prohibition",
+                "severity": "info"
+            },
+            "6": {
+                "state": "discharge prohibition",
+                "severity": "info"
+            },
+            "7": {
+                "state": "charging and discharging prohibited",
+                "severity": "info"
+            },
+            "8": {
+                "state": "fault",
+                "severity": "critical"
+            },
+            "9": {
+                "state": "fault recovery",
+                "severity": "critical"
+            },
+            "10": {
+                "state": "test mode",
+                "severity": "info"
+            }
+        }
+    },
+    "str20_state": {
+        "mapping": {
+            "0": {
+                "state": "initial state",
+                "severity": "info"
+            },
+            "1": {
+                "state": "charging",
+                "severity": "info"
+            },
+            "2": {
+                "state": "discharging",
+                "severity": "info"
+            },
+            "3": {
+                "state": "ready",
+                "severity": "info"
+            },
+            "4": {
+                "state": "cluster maintenance",
+                "severity": "info"
+            },
+            "5": {
+                "state": "charge prohibition",
+                "severity": "info"
+            },
+            "6": {
+                "state": "discharge prohibition",
+                "severity": "info"
+            },
+            "7": {
+                "state": "charging and discharging prohibited",
+                "severity": "info"
+            },
+            "8": {
+                "state": "fault",
+                "severity": "critical"
+            },
+            "9": {
+                "state": "fault recovery",
+                "severity": "critical"
+            },
+            "10": {
+                "state": "test mode",
+                "severity": "info"
+            }
+        }
+    }
+}

@@ -101,5 +101,74 @@
     },
     "bms_status_word" : {
         "change" : true
+    },
+    "run_state_branch_1": {
+        "change": true
+    },
+    "run_state_branch_2": {
+        "change": true
+    },
+    "pll_completion_flag": {
+        "change": true
+    },
+    "overload_derate_flag": {
+        "change": true
+    },
+    "bms_estop_status": {
+        "change": true
+    },
+    "xfmr_box_estop_status": {
+        "change": true
+    },
+    "reactor_temp_ctrl_fb_1": {
+        "change": true
+    },
+    "reactor_temp_ctrl_fb_2": {
+        "change": true
+    },
+    "main_fan_status_1": {
+        "change": true
+    },
+    "main_fan_status_2": {
+        "change": true
+    },
+    "dc_spd_status_2": {
+        "change": true
+    },
+    "dc_spd_status_1": {
+        "change": true
+    },
+    "ac_spd_status": {
+        "change": true
+    },
+    "dc_switch_status_2": {
+        "change": true
+    },
+    "coolant_level_fb": {
+        "change": true
+    },
+    "e_stop_button_status": {
+        "change": true
+    },
+    "ac_switch_status": {
+        "change": true
+    },
+    "dc_switch_status_1": {
+        "change": true
+    },
+    "remote_e_stop_status": {
+        "change": true
+    },
+    "pcs_fault_status": {
+        "change": true
+    },
+    "pcs_alarm_status": {
+        "change": true
+    },
+    "water_pump_status_fb_1": {
+        "change": true
+    },
+    "water_pump_status_fb_2": {
+        "change": true
     }
 }
